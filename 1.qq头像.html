@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+     #right{
+          margin:30px 30px 0 1000px;
+          position:relative;
+     }
+
+        #div1{
+            width: 80px;
+            height: 75px;
+            /*border: 2px solid blue;*/
+            position: absolute;
+            top: 55px;
+            left: 10px;
+            /*display: none;*/
+        }
+        #div1:hover{
+            border: 2px solid blue;
+            
+        }
+        #div2{
+            width: 350px;
+            height: 520px;
+            border: 1px solid red;
+            background-image: url("img/qq1.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            left: -370px;
+            top: 0;
+            /*overflow-y: scroll;*/
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<div id="right">
+    <img src= "img/qq2.png" alt=""/>
+    <div id="div1">
+        <div id="div2">
+        </div>
+    </div>
+
+    <script>
+        var div1=document.getElementById('div1');
+        var div2=document.getElementById('div2');
+        var time1=null;
+        var time2=null;
+        var time3=null;
+        var time4=null;
+        var opacity=0;
+        var step=0;
+        div1.onmouseover=function(){
+            clearInterval(time1);
+            clearInterval(time2);
+            clearTimeout(time3);
+            clearTimeout(time4);
+            time3=setTimeout(function() {
+                div2.style.display = 'block';
+                time1 = setInterval(function () {
+                    step += 2;
+                    opacity+=0.02;
+
+                    if (step >= 50) {
+                        step = 50;
+                        clearInterval(time1);
+                    }
+                    div2.style.top = step + 'px';
+                    div2.style.opacity = opacity;
+                }, 20)
+            },400)
+
+        };
+        div1.onmouseout=function(){
+            clearInterval(time1);
+            clearInterval(time2);
+            clearTimeout(time3);
+            clearTimeout(time4);
+            time4=setTimeout(function() {
+            time2=setInterval(function(){
+                        opacity-=0.02;
+                        step-=2;
+                        if(step<=0){
+                            step=0;
+                            opacity=0;
+                            clearInterval(time2);
+                        }
+                        div2.style.top=step+'px';
+                        div2.style.opacity=opacity;
+            }
+            ,20)
+            },400)
+        }
+
+
+
+    </script>
+
+</body>
+</html>
