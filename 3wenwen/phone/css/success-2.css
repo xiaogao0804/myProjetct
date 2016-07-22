@@ -1,0 +1,35 @@
+.content{
+	max-width:1248px;
+	width: 100%;
+	margin: 0 auto;
+}
+.contentTopText{
+	width:100%;
+	padding-top:70px;
+	padding-bottom:70px;
+	color:#666;
+	font-size:18px;
+}
+.projectImg img{
+	float: left;
+	width: 100%;
+}
+.contentHr{
+	width: 99.5%;
+	color:#666;
+	margin:30px auto 10px;
+}
+.toLeft{
+	margin: 0 10px;
+	color:#666;
+}
+.btmCut{
+	width: 100%;
+	margin-bottom:20px;
+}
+.btmCut a:first-child{
+	float: left;
+}
+.btmCut a:last-child{
+	float: right;
+}
