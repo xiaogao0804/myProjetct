@@ -1,0 +1,62 @@
+.content{
+	width: 1248px;
+	margin: 0 auto;
+}
+.infoTitle{
+	margin-bottom:35px;
+}
+.infoTitle a{
+	color:#333;
+}
+.infoText{
+	margin-bottom:35px;
+}
+.moreInfo{
+	width: 130px;
+	height: 35px;
+	border-radius: 5px;
+	display: inline-block;
+	color:#fff;
+	background: #f75a53;
+	text-align: center;
+	line-height: 35px;
+}
+.moreIcon{
+	margin-left:5px ;
+	margin-bottom:2px;
+}
+.collectIcon{
+	margin: 0 10px 0 20px;
+}
+.signInfo li{
+	padding-top:30px;
+	padding-bottom: 30px;
+	border-bottom:1px solid #e4e4e4;
+	width: 100%;
+}
+.tab{
+	width:718px;
+	height: 40px;
+	list-style-type: none;
+	margin: 25px auto;
+}
+.tab li{
+	width: 170px;
+	height: 100%;
+	float: left;
+	margin-right: 9px;
+	border: 1px solid #b9b8b8;
+	font-size: 15px;
+	color: #878787;
+	line-height: 40px;
+	text-indent: 15px;
+}
+.tab .li_last,.introduce .li_last{
+	margin-right: 0; 
+}
+.tab .select{
+	color: #fff;
+	background-color:#e60012;
+	text-align: center;
+	text-indent: 0;
+}
