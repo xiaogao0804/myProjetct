@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/layout.css"/>
+    <link rel="stylesheet" href="../../css/meiyiye.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="header" id="header">
+        <div class="header2"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="ani name" swiper-animate-effect="flash" swiper-animate-duration="0.9s" swiper-animate-delay="0.3s">小星星</p>
+                    <p class="nodes">俺滴学习笔记</p>
+                    <p class="autograph1">爱笑乃我本性</p>
+                    <p class="autograph2">傲是命中注定</p>
+                    <!--<div class="start" id="start"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="m_left">
+            <div class="my_data">
+                <!--<img src="../../img/psb.jpg" alt=""/>-->
+                <input type="button" value="我的资料" id="btn"/>
+            </div>
+            <div class="my_notes">
+                <ul class="list">
+                    <li>css</li>
+                    <li>js</li>
+                    <li>jquery</li>
+                    <li>css3</li>
+                    <li>兼容性</li>
+                    <li>移动端</li>
+                </ul>
+            </div>
+            <div class="other_articles">
+                <ul class="articles">
+                    <li><span>css相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.tuicool.com/articles/reiYR3m"><li><span>css兼容性问题</span></li></a>
+                            <a href="http://www.cnblogs.com/mofish/archive/2012/10/12/2720949.html"><li><span>css权重问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css优化问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css列表样式</span></li></a>
+
+                        </ul>
+                    </li>
+                    <li><span>js相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/14397.htm"><li><span>js刷新页面</span></li></a>
+                            <a href="http://www.jb51.net/article/35535.htm"><li><span>setTimeout的用法</span></li></a>
+                            <a href="http://www.jb51.net/article/25403.htm"><li><span>js页面跳转方式</span></li></a>
+                            <a href="http://www.jb51.net/article/14566.htm"><li><span>cookie使用分析</span></li></a>
+                            <a href="http://www.cnblogs.com/2050/p/3191744.html"><li><span>js跨域</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>jquery相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/21213.htm"><li><span>jquery跨域问题</span></li></a>
+                            <a href="http://www.jb51.net/article/30047.htm"><li><span>jquery操作Dom</span></li></a>
+                            <a href="http://www.jb51.net/article/69656.htm"><li><span>jquery信息验证</span></li></a>
+                            <a href="http://www.jb51.net/article/31780.htm"><li><span>jquery的class</span></li></a>
+                            <a href="http://www.jb51.net/article/21628.htm"><li><span> $(document).ready() 与window.onload</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>css3相关链接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.cnblogs.com/afuge/p/3770498.html"><li><span>css3兼容问题</span></li></a>
+                            <a href="http://www.cnblogs.com/lhb25/archive/2011/11/22/best-awesome-css3-animation-demos.html"><li><span>css3动画演示</span></li></a>
+                            <a href="http://blog.csdn.net/freshlover/article/details/7610269"><li><span>box-shadow技巧</span></li></a>
+                            <a href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html"><li><span>css3过渡动画</span></li></a>
+                            <a href="http://caibaojian.com/css3-background-gradient.html"><li><span>css3渐变</span></li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <h1>jquery与dom的转化</h1>
+            <p class="p1">
+                ("#test").html() 意思是指：<br/>
+                获取ID为test的元素内的html代码。其中html()是jQuery里的方法,<br/>
+                这段代码等同于用DOM实现代码：<br/>
+                document.getElementById("id").innerHTML;<br/>
+                虽然jQuery对象是包装DOM对象后产生的，但是jQuery无法使用DOM对象的任何方法，同理DOM对象也不能使用jQuery里的方法.乱使用会报错。<br/>
+                比如：$("#test").innerHTML、document.getElementById("id").html()之类的写法都是错误的。<br/>
+                还有一个要注意的是：用#id作为选择符取得的是jQuery对象与document.getElementById("id")得到的DOM对象，这两者并不等价。<br/>
+                请参看如下说的两者间的转换。<br/><br/>
+                jQuery对象转成DOM对象：<br/>
+                两种方法：[index]和.get(index);<br/>
+                （1）用[index]方法：<br/>
+                var $v =$("#v") ; //jQuery对象<br/>
+                var v=$v[0]; //DOM对象<br/>
+                alert(v.checked) //检测这个checkbox是否被选中<br/>
+                （2）用.get(index)方法：<br/>
+                如：var $v=$("#v"); //jQuery对象<br/>
+                var v=$v.get(0); //DOM对象<br/>
+                alert(v.checked) //检测这个checkbox是否被选中<br/>
+            </p>
+            <p>
+                DOM对象转成jQuery对象:<br/>
+                用$()把DOM对象包装起来，就可以获得一个jQuery对象了<br/>
+                如：var v=document.getElementById("v"); //DOM对象<br/>
+                var $v=$(v); //jQuery对象<br/>
+                转换后，就可以任意使用jQuery的方法了。<br/>
+                通过以上方法，可以任意的相互转换jQuery对象和DOM对象。需要再强调注意的是：DOM对象才能使用DOM中的方法，jQuery对象是不可以用DOM中的方法。
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f_left">
+            <p>提</p>
+            <p>高</p>
+            <p>篇</p>
+        </div>
+        <div class="f_right">
+            <ul class="angu">
+                <li class="p_name">angular.js</li>
+                <a href="http://developer.51cto.com/art/201311/416334.htm">1.angular.js七步走</a>
+                <a href="http://www.bdqn.cn/news/201409/15295.shtml">2.angularJS遇见的问题的解决方案</a>
+                <a href="http://www.yyyweb.com/3019.html">3.AngularJS常犯的10个错误</a>
+                <a href="http://www.jb51.net/article/59477.htm">4.angularjs 处理多个异步请求方法汇总</a>
+            </ul>
+            <ul class="node">
+                <li class="p_name">node.js</li>
+                <a href="http://www.360doc.com/content/15/0619/22/20625683_479299340.shtml">node.js开发者常见的10个错误</a>
+                <a href="http://blog.csdn.net/youbl/article/details/36661215">node.js开发集锦</a>
+                <a href="http://www.cnblogs.com/zhoudaozhang/p/4704396.html">node.js跨域访问</a>
+                <a href="http://cnodejs.org/topic/5375765fd6e2d161496e9faa">node.js处理事务的问题</a>
+            </ul>
+            <ul class="php">
+                <li class="p_name">php</li>
+                <a href="http://jingyan.baidu.com/article/c1a3101eeb3ae2de656debb4.html">php常见10大问题</a>
+                <a href="http://www.cnblogs.com/laojie4321/p/4187620.html">php错误和异常处理</a>
+                <a href="http://www.laruence.com/2013/03/26/2884.html">PHP浮点问题</a>
+
+            </ul>
+            <ul class="ecma">
+                <li class="p_name">ECMAScript6</li>
+                <a href="http://www.oschina.net/news/71566/es6-developers-will-have-to-know">1.ECMAScript6十大特性</a>
+                <a href="http://www.w3ctech.com/topic/741">2.ECMAScript6下一代的js标准</a>
+                <a href="http://blog.csdn.net/ydj9931/article/details/7028390">3.ECMAScript6的6个值得看好的特性</a>
+                <a href="http://www.ituring.com.cn/article/75207">4.ECMAScript6基础知识</a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
