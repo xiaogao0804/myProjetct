@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>html5的特性</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/layout.css"/>
+    <link rel="stylesheet" href="../../css/meiyiye.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="header" id="header">
+        <div class="header2"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="ani name" swiper-animate-effect="flash" swiper-animate-duration="0.9s" swiper-animate-delay="0.3s">小星星</p>
+                    <p class="autograph1">爱笑乃我本性</p>
+                    <p class="autograph2">傲是命中注定</p>
+                    <!--<div class="start" id="start"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="m_left">
+            <div class="my_data">
+                <!--<img src="../../img/psb.jpg" alt=""/>-->
+                <input type="button" value="我的资料" id="btn"/>
+            </div>
+            <div class="my_notes">
+                <ul class="list">
+                    <li>css</li>
+                    <li>js</li>
+                    <li>jquery</li>
+                    <li>css3</li>
+                    <li>兼容性</li>
+                    <li>移动端</li>
+                </ul>
+            </div>
+            <div class="other_articles">
+                <ul class="articles">
+                    <li><span>css相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.tuicool.com/articles/reiYR3m"><li><span>css兼容性问题</span></li></a>
+                            <a href="http://www.cnblogs.com/mofish/archive/2012/10/12/2720949.html"><li><span>css权重问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css优化问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css列表样式</span></li></a>
+
+                        </ul>
+                    </li>
+                    <li><span>js相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/14397.htm"><li><span>js刷新页面</span></li></a>
+                            <a href="http://www.jb51.net/article/35535.htm"><li><span>setTimeout的用法</span></li></a>
+                            <a href="http://www.jb51.net/article/25403.htm"><li><span>js页面跳转方式</span></li></a>
+                            <a href="http://www.jb51.net/article/14566.htm"><li><span>cookie使用分析</span></li></a>
+                            <a href="http://www.cnblogs.com/2050/p/3191744.html"><li><span>js跨域</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>jquery相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/21213.htm"><li><span>jquery跨域问题</span></li></a>
+                            <a href="http://www.jb51.net/article/30047.htm"><li><span>jquery操作Dom</span></li></a>
+                            <a href="http://www.jb51.net/article/69656.htm"><li><span>jquery信息验证</span></li></a>
+                            <a href="http://www.jb51.net/article/31780.htm"><li><span>jquery的class</span></li></a>
+                            <a href="http://www.jb51.net/article/21628.htm"><li><span> $(document).ready() 与window.onload</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>css3相关链接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.cnblogs.com/afuge/p/3770498.html"><li><span>css3兼容问题</span></li></a>
+                            <a href="http://www.cnblogs.com/lhb25/archive/2011/11/22/best-awesome-css3-animation-demos.html"><li><span>css3动画演示</span></li></a>
+                            <a href="http://blog.csdn.net/freshlover/article/details/7610269"><li><span>box-shadow技巧</span></li></a>
+                            <a href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html"><li><span>css3过渡动画</span></li></a>
+                            <a href="http://caibaojian.com/css3-background-gradient.html"><li><span>css3渐变</span></li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <h1>html5特性一</h1>
+            <p class="p1">
+                1.html5有哪些新特性？如何处理HTML5新标签的浏览器兼容问题？<br/>
+                新特性：<br/>
+                (1)绘画 canvas;<br/>
+                (2)用于媒介回放的 video 和 audio 元素;<br/>
+                (3)本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失;<br/>
+                (4)sessionStorage 的数据在浏览器关闭后自动删除; <br/>
+                (5)语意化更好的内容元素，比如 article、footer、header、nav、section; <br/>
+                (6)表单控件，calendar、date、time、email、url、search;     <br/>
+                (7)新的技术webworker, Geolocation;<br/>
+                兼容性问题：<br/>
+                IE8/IE7/IE6支持通过document.createElement方法产生的标签， 可以利用这一特性让这些浏览器支持HTML5新标签， 浏览器支持新标签后，还需要添加标签默认的样式。 也可以直接使用成熟的框
+
+            </p>
+            <p>
+                2.HTML5的离线储存，描述一下 cookies，sessionStorage 和 localStorage 的区别？<br/>
+                cookie在浏览器和服务器间来回传递。<br/>
+                sessionStorage和localStorage不会 ,sessionStorage和localStorage的存储空间更大；<br/>
+                sessionStorage和localStorage有更多丰富易用的接口；<br/>
+                sessionStorage和localStorage各自独立的存储空间.
+            </p>
+            <p>
+                3.HTML5 中如何嵌入音频和视频？<br/>
+                HTML5 支持 MP3、Wav 和 Ogg 格式的音频，下面是在网页中嵌入音频的简单示例：<br/>
+                &lt;audio controls&gt;<br/>
+                &lt;source src=”jamshed.mp3″ type=”audio/mpeg”&gt;<br/>
+                    Your browser doesn't support audio embedding feature.<br/>
+                &lt;/audio&gt;
+                </p>
+            <p>
+                4.HTML5 支持 MP4、WabM和 Ogg 格式的视频，下面是在网页中嵌入视频的简单示例：<br/>
+                &lt;video width="450px" height="340px" controls&gt;
+                &lt;source src="jashed.mp4" type="video/mp4&gt;
+                Your browser doesn't support audio embedding feature.<br/>
+                &lt;video&gt;
+
+
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f_left">
+            <p>提</p>
+            <p>高</p>
+            <p>篇</p>
+        </div>
+        <div class="f_right">
+            <ul class="angu">
+                <li class="p_name">angular.js</li>
+                <a href="http://developer.51cto.com/art/201311/416334.htm">1.angular.js七步走</a>
+                <a href="http://www.bdqn.cn/news/201409/15295.shtml">2.angularJS遇见的问题的解决方案</a>
+                <a href="http://www.yyyweb.com/3019.html">3.AngularJS常犯的10个错误</a>
+                <a href="http://www.jb51.net/article/59477.htm">4.angularjs 处理多个异步请求方法汇总</a>
+            </ul>
+            <ul class="node">
+                <li class="p_name">node.js</li>
+                <a href="http://www.360doc.com/content/15/0619/22/20625683_479299340.shtml">node.js开发者常见的10个错误</a>
+                <a href="http://blog.csdn.net/youbl/article/details/36661215">node.js开发集锦</a>
+                <a href="http://www.cnblogs.com/zhoudaozhang/p/4704396.html">node.js跨域访问</a>
+                <a href="http://cnodejs.org/topic/5375765fd6e2d161496e9faa">node.js处理事务的问题</a>
+            </ul>
+            <ul class="php">
+                <li class="p_name">php</li>
+                <a href="http://jingyan.baidu.com/article/c1a3101eeb3ae2de656debb4.html">php常见10大问题</a>
+                <a href="http://www.cnblogs.com/laojie4321/p/4187620.html">php错误和异常处理</a>
+                <a href="http://www.laruence.com/2013/03/26/2884.html">PHP浮点问题</a>
+
+            </ul>
+            <ul class="ecma">
+                <li class="p_name">ECMAScript6</li>
+                <a href="http://www.oschina.net/news/71566/es6-developers-will-have-to-know">1.ECMAScript6十大特性</a>
+                <a href="http://www.w3ctech.com/topic/741">2.ECMAScript6下一代的js标准</a>
+                <a href="http://blog.csdn.net/ydj9931/article/details/7028390">3.ECMAScript6的6个值得看好的特性</a>
+                <a href="http://www.ituring.com.cn/article/75207">4.ECMAScript6基础知识</a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/jquery-1.8.3.min.js"></script>
+<script src="../../js/js.js"></script>
+</html>

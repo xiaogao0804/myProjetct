@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/layout.css"/>
+    <link rel="stylesheet" href="../../css/meiyiye.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">小星星</div>
+    <div class="main">
+        <div class="m_left">
+            <div class="my_data">
+                <!--<img src="../img/psb.jpg" alt=""/>-->
+            </div>
+            <div class="my_notes">
+                <ul class="list">
+                    <li>css</li>
+                    <li>js</li>
+                    <li>jquery</li>
+                    <li>css3</li>
+                    <li>兼容性</li>
+                    <li>移动端</li>
+                </ul>
+            </div>
+            <div class="other_articles"></div>
+        </div>
+        <div class="m_right">
+            <h1>css结构问题</h1>
+            <p>
+               1.margin-top , margin-bottom不能正常显示
+                有时会遇到外层中的子层使用margin-top不管用的情况，只需要在子层的前后加上div{height:0;overflow:hidden}
+                或者是让子层浮动一下或者是给父层加上边框；
+                子层在底部时，给子层加上margin-bottom：10px也不管用，也要给个清除属性的.clear{clear:both;font-size:0;line-height:0}
+                在底部下加个<!--<div></div>-->
+
+            </p>
+        </div>
+    </div>
+    <div class="footer"></div>
+</div>
+</body>
+<script src="../../js/jquery-1.8.3.min.js"></script>
+<script src="../../js/js.js"></script>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>html5的特性</title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/layout.css"/>
+    <link rel="stylesheet" href="../../css/meiyiye.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="header" id="header">
+        <div class="header2"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="ani name" swiper-animate-effect="flash" swiper-animate-duration="0.9s" swiper-animate-delay="0.3s">小星星</p>
+                    <p class="autograph1">爱笑乃我本性</p>
+                    <p class="autograph2">傲是命中注定</p>
+                    <!--<div class="start" id="start"></div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="m_left">
+            <div class="my_data">
+                <!--<img src="../../img/psb.jpg" alt=""/>-->
+                <input type="button" value="我的资料" id="btn"/>
+            </div>
+            <div class="my_notes">
+                <ul class="list">
+                    <li>css</li>
+                    <li>js</li>
+                    <li>jquery</li>
+                    <li>css3</li>
+                    <li>兼容性</li>
+                    <li>移动端</li>
+                </ul>
+            </div>
+            <div class="other_articles">
+                <ul class="articles">
+                    <li><span>css相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.tuicool.com/articles/reiYR3m"><li><span>css兼容性问题</span></li></a>
+                            <a href="http://www.cnblogs.com/mofish/archive/2012/10/12/2720949.html"><li><span>css权重问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css优化问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css列表样式</span></li></a>
+
+                        </ul>
+                    </li>
+                    <li><span>js相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/14397.htm"><li><span>js刷新页面</span></li></a>
+                            <a href="http://www.jb51.net/article/35535.htm"><li><span>setTimeout的用法</span></li></a>
+                            <a href="http://www.jb51.net/article/25403.htm"><li><span>js页面跳转方式</span></li></a>
+                            <a href="http://www.jb51.net/article/14566.htm"><li><span>cookie使用分析</span></li></a>
+                            <a href="http://www.cnblogs.com/2050/p/3191744.html"><li><span>js跨域</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>jquery相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/21213.htm"><li><span>jquery跨域问题</span></li></a>
+                            <a href="http://www.jb51.net/article/30047.htm"><li><span>jquery操作Dom</span></li></a>
+                            <a href="http://www.jb51.net/article/69656.htm"><li><span>jquery信息验证</span></li></a>
+                            <a href="http://www.jb51.net/article/31780.htm"><li><span>jquery的class</span></li></a>
+                            <a href="http://www.jb51.net/article/21628.htm"><li><span> $(document).ready() 与window.onload</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>css3相关链接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.cnblogs.com/afuge/p/3770498.html"><li><span>css3兼容问题</span></li></a>
+                            <a href="http://www.cnblogs.com/lhb25/archive/2011/11/22/best-awesome-css3-animation-demos.html"><li><span>css3动画演示</span></li></a>
+                            <a href="http://blog.csdn.net/freshlover/article/details/7610269"><li><span>box-shadow技巧</span></li></a>
+                            <a href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html"><li><span>css3过渡动画</span></li></a>
+                            <a href="http://caibaojian.com/css3-background-gradient.html"><li><span>css3渐变</span></li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <h1>html5的特性二</h1>
+            <p class="p1">
+                1.HTML5 存储类型有什么区别？<br/>
+                localStorage 用于持久化的本地存储，数据永远不会过期，关闭浏览器也不会丢失。<br/>
+                sessionStorage 同一个会话中的页面才能访问并且当会话结束后数据也随之销毁。因此sessionStorage不是一种持久化的本地存储，仅仅是会话级别的存储
+            </p>
+            <p>
+                2.HTML5 有哪些新增的表单元素？<br/>
+                datalist  week  month  time  color  range email url  number
+
+            </p>
+            <p>
+                3.HTML5 应用程序缓存和浏览器缓存有什么区别？<br/>
+                应用程序缓存是 HTML5 的重要特性之一，提供了离线使用的功能，让应用程序可以获取本地的网站内容，例如 HTML、CSS、图片以及 JavaScript。这个特性可以提高网站性能，它的实现借助于 manifest 文件，如下：<br/>
+                &lt;!doctype html&gt;<br/>
+                &lt;html manifest=”example.appcache”&gt;<br/>
+                …..<br/>
+                &lt;/html>
+            </p>
+            <p>
+                4.什么是Web Workers？<br/>
+                当浏览器执行上百万次的繁重的循环代码，这个方法执行是同步的，换句话说这个浏览器必须等到循环完成才能操作，这个会进一步导致浏览器冻结并且没有相应，屏幕还会显示异常信息，
+                如果你能移动这些繁重的循环到Javascript文件中，采用异步的方式运行，这意味着浏览器不需要等到循环接触，我们可以有更敏感的浏览器，这就是web worker的作用，
+                Web worker帮助我们用异步执行Javascript文件。
+            </p>
+            <p>
+                5.web storage和cookie的区别<br/>
+                　Web Storage的概念和cookie相似，区别是它是为了更大容量存储设计的。Cookie的大小是受限的，并且每次你请求一个新的页面的时候Cookie都会被发送过去，这样无形中浪费了带宽，另外cookie还需要指定作用域，不可以跨域调用。<br/>
+                　除此之外，Web Storage拥有setItem,getItem,removeItem,clear等方法，不像cookie需要前端开发者自己封装setCookie，getCookie。<br/>
+                  但是Cookie也是不可以或缺的：Cookie的作用是与服务器进行交互，作为HTTP规范的一部分而存在 ，而Web Storage仅仅是为了在本地“存储”数据而生.<br/>
+                　浏览器的支持除了IE７及以下不支持外，其他标准浏览器都完全支持(ie及FF需在web服务器里运行)，值得一提的是IE总是办好事，例如IE7、IE6中的UserData其实就是javascript本地存储的解决方案。通过简单的代码封装可以统一到所有的浏览器都支持web storage。<br/>
+                　localStorage和sessionStorage都具有相同的操作方法，例如setItem、getItem和removeItem等
+
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f_left">
+            <p>提</p>
+            <p>高</p>
+            <p>篇</p>
+        </div>
+        <div class="f_right">
+            <ul class="angu">
+                <li class="p_name">angular.js</li>
+                <a href="http://developer.51cto.com/art/201311/416334.htm">1.angular.js七步走</a>
+                <a href="http://www.bdqn.cn/news/201409/15295.shtml">2.angularJS遇见的问题的解决方案</a>
+                <a href="http://www.yyyweb.com/3019.html">3.AngularJS常犯的10个错误</a>
+                <a href="http://www.jb51.net/article/59477.htm">4.angularjs 处理多个异步请求方法汇总</a>
+            </ul>
+            <ul class="node">
+                <li class="p_name">node.js</li>
+                <a href="http://www.360doc.com/content/15/0619/22/20625683_479299340.shtml">node.js开发者常见的10个错误</a>
+                <a href="http://blog.csdn.net/youbl/article/details/36661215">node.js开发集锦</a>
+                <a href="http://www.cnblogs.com/zhoudaozhang/p/4704396.html">node.js跨域访问</a>
+                <a href="http://cnodejs.org/topic/5375765fd6e2d161496e9faa">node.js处理事务的问题</a>
+            </ul>
+            <ul class="php">
+                <li class="p_name">php</li>
+                <a href="http://jingyan.baidu.com/article/c1a3101eeb3ae2de656debb4.html">php常见10大问题</a>
+                <a href="http://www.cnblogs.com/laojie4321/p/4187620.html">php错误和异常处理</a>
+                <a href="http://www.laruence.com/2013/03/26/2884.html">PHP浮点问题</a>
+
+            </ul>
+            <ul class="ecma">
+                <li class="p_name">ECMAScript6</li>
+                <a href="http://www.oschina.net/news/71566/es6-developers-will-have-to-know">1.ECMAScript6十大特性</a>
+                <a href="http://www.w3ctech.com/topic/741">2.ECMAScript6下一代的js标准</a>
+                <a href="http://blog.csdn.net/ydj9931/article/details/7028390">3.ECMAScript6的6个值得看好的特性</a>
+                <a href="http://www.ituring.com.cn/article/75207">4.ECMAScript6基础知识</a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/jquery-1.8.3.min.js"></script>
+<script src="../../js/js.js"></script>
+</html>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/layout.css"/>
+    <link rel="stylesheet" href="../../css/hover.css"/>
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link rel="stylesheet" href="../../css/animate.min.css"/>
+</head>
+<body>
+<div class="wrap">
+   <!-- <div id="mask"></div>
+    <div id="login">
+        <div class="loginCon">
+            <div id="close"> </div>
+        </div>
+    </div>-->
+    <div class="header" id="header">
+        <div class="header2"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                     <p class="ani name" swiper-animate-effect="flash" swiper-animate-duration="0.9s" swiper-animate-delay="0.3s">小星星</p>
+                     <p class="autograph1">爱笑乃我本性</p>
+                     <p class="autograph2">傲是命中注定</p>
+                     <!--<div class="start" id="start"></div>-->
+                 </div>
+             </div>
+        </div>
+    </div>
+    <div class="everyDay">
+        <div class="e_left">
+            <div class="demo1">
+                <a href="demo1.html" class="a_img">
+                    <img src="../../img/demo1.png" alt=""/>
+                </a>
+                <a href="demo1.html" class="a_name">变幻球球</a>
+            </div>
+            <div class="demo2">
+                <a href="demo1.html" class="a_img">
+                    <img src="../../img/demo2.png" alt=""/>
+                </a>
+                <a href="demo2.html" class="a_name">吃小球</a>
+            </div>
+            <div class="demo3"></div>
+        </div>
+        <div class="e_right">
+            <ul class="clock" id="clock">
+                <li id="sec">
+                    <!--<img src="../../img/1_04.png" alt="" id="sec"/>-->
+                </li>
+                <li id="hour">
+                    <!--<img src="../../img/1_08.png" alt="" id="hour"/>-->
+                </li>
+                <li id="min">
+                    <!--<img src="../../img/1_06.png" alt="" id="min"/>-->
+                </li>
+            </ul>
+            <span class="lang">每日一语</span>
+            <p class="language" id="lang">能管理好自己的情绪，你就是优雅的；能控制好自己的心态，你就是成功的</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="m_left">
+            <div class="my_data">
+                <!--<img src="../../img/psb.jpg" alt=""/>-->
+                <input type="button" value="我的资料" id="btn"/>
+            </div>
+            <div class="my_notes">
+                <ul class="list">
+                      <li>css
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../css/compatible.html">
+                                        <h3>兼容性归纳</h3>
+                                        <p class="p_list">
+                                            1.不同浏览器的标签默认的外补丁和内补丁不同<br/>
+                                            解决方案：css里  *{margin：0；padding：0}
+                                        </p>
+                                        <p>
+                                            2.块属性标签float后，又有横行的margin情况下，在ie6显示margin比设置的大(即IE6下有横向margin)<br/>
+                                        </p>
+                                        <span>阅读全文</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../css/css结构问题一.html">
+                                        <h3>css结构问题一</h3>
+                                        <p class="p_list">
+                                            1.margin-top , margin-bottom不能正常显示<br/>
+                                            有时会遇到外层中的子层使用margin-top不管用的情况，只需要在子层的前后加上div{height:0;overflow:hidden}
+                                            或者是让子层浮动一下或者是给父层加上边框；
+                                            子层在底部时，给子层加上margin-bottom：10px也不管用
+                                            </p>
+                                        <span>阅读全文</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../css/css结构问题二.html">
+                                        <h3>css结构问题二</h3>
+                                        <p class="p_list">
+                                            9.border:none和border：0的区别 <br/>
+                                            性能差异：<br/>
+                                            【border：0】虽然看不到，但是浏览器依然对border-width/border-color进行了渲染，即已经占用了内存值<br/>
+                                        <span>阅读全文</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../css/css问题归纳.html">
+                                        <h3>css问题归纳</h3>
+                                        <p class="p1">
+                                            行内元素和块级元素的区别？行内块元素的兼容性使用？<br/>
+                                            （IE8 以下） 行内元素：会在水平方向排列，不能包含块级元素，设置width无效，height无效(可以设置line-height)，margin上下无效，padding上下无效。<br/>
+                                            块级元素：各占据一行，垂直方向排列。从新行开始结束接着一个断行。<br/>
+                                        </p>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../css/浮动元素.html">
+                                        <h3>浮动元素的原理和清除技巧</h3>
+                                        <p class="p1">
+                                            浮动元素脱离文档流，不占据空间。浮动元素碰到包含它的边框或者浮动元素的边框停留。<br/>
+                                            1.使用空标签清除浮动。<br/>
+                                            这种方法是在所有浮动标签后面添加一个空标签 定义css clear:both. 弊端就是增加了无意义标签。<br/>
+                                        <span>阅读全文</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li>js
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../js/array1.js.html">
+                                        <h3>Array的操作方法总结一</h3>
+                                        <p class="p_list">
+                                            push 方法<br/>
+                                            该方法用于向数组obj中添加新元素，并返回新的数组<br/>
+                                            obj.push(item1,item2,.....);<br/>
+                                            obj是必选项，一个数组对象；<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../js/array2.html">
+                                        <h3>Array的操作方法总结二</h3>
+                                        <p class="p1">
+                                            sort 方法<br/>
+                                            obj.sort(sortfunction)<br/>
+                                            obj 必选项。任意 Array 对象。<br/>
+                                            如果为 sortfunction 参数提供了一个函数，那么该函数必须返回下列值之一：<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../js/js杂谈一.html">
+                                        <h3>js杂谈一</h3>
+                                        <p class="p1">
+                                            1.你能描述一下你制作一个网页的工作流程吗？<br/>
+                                            内容分析：分清展现在网络中内容的层次和逻辑关系<br/>
+                                            结构设计：写出合理的html结构代码<br/>
+                                            布局设计：使用html+css进行布局<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../js/js杂谈二.html">
+                                        <h3>js杂谈一</h3>
+                                        <p class="p1">
+                                            1.你能描述一下你制作一个网页的工作流程吗？<br/>
+                                            内容分析：分清展现在网络中内容的层次和逻辑关系<br/>
+                                            结构设计：写出合理的html结构代码<br/>
+                                            布局设计：使用html+css进行布局<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+
+                                <li>
+                                    <a href="../js/kuayu.html">
+                                        <h3>5种方法处理js的跨域问题</h3>
+                                        <p class="p1">
+                                            通过js来完成：<br/>
+                                            (1).jsonp<br/>
+                                            ajax请求，dataType为jsonp。这种形式需要请求在服务端调整为返回callback([json-object])的形式。
+                                            如果服务端返回的是普通j
+                                        <span>阅读全文</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                      </li>
+                    <li>jquery
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../jquery/$的冲突问题.html">
+                                        <h3>$的冲突问题</h3>
+                                        <p class="p1">
+                                            jQuery中需要用到$符号，如果其他js库（例如大名鼎鼎的prototype)也定义了$符号，那么就会造成冲突，会影响到js代码的正常执行。jqeury提供了一些方案来避免这个问题，
+                                            下面是几个方案：<br/>
+                                            方案1：<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../jquery/ajax与序列化.html">
+                                        <h3>ajax篇</h3>
+                                        <p class="p1">
+                                            $.get()和$.post()方法<br/>
+                                            $.get(url,[data],[callback],[type])<br/>
+                                            $.post(url,[data],[callback],[type])<br/>
+                                            两种方法请求方式不同，其他方式相同.<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../jquery/each的使用方法说明.html">
+                                        <h3>$.each()的使用方法说明</h3>
+                                        <p class="p1">
+                                            jQuery提供的each方法是对参数一提供的对象的中所有的子元素逐一进行方法调用。<br/>
+                                            而jQuery对象提供的each方法则是对jQuery内 部的子元素进行逐个调用。<br/>
+                                            $.each()方法遍历可以分为以下几种情况：
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../jquery/jq与dom的相互转化.html">
+                                        <h3>jquery与dom的转化</h3>
+                                        <p class="p1">
+                                            ("#test").html() 意思是指：<br/>
+                                            获取ID为test的元素内的html代码。其中html()是jQuery里的方法,<br/>
+                                            这段代码等同于用DOM实现代码：<br/>
+                                            document.getElementById("id").innerHTML;<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../jquery/learn.html">
+                                        <h3>jquery学习心得</h3>
+                                        <p class="p1">
+                                            jquery对象就是jquery包装Dom对象后产生的对象<br/>
+                                            jquery对象是jquery独有的<br/>
+                                            只有 jQuery 对象才能使用 jQuery 的方法，在 jQuery 对象中无法使用 DOM 对象的任何方法，反之 DOM 对象也无法使
+                                        <span>阅读全文</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                  <li>css3
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../compatible/compatible1.html"><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../compatible/compatible2.html"><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>兼容性
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../compatible/compatible1.html"><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../compatible/compatible2.html"><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                   <li>html5
+                        <div class="box">
+                            <ul class="b_list">
+                                <li>
+                                    <a href="../html5/html5相关特性一.html">
+                                        <h3>html5特性一</h3>
+                                        <p class="p1">
+                                            1.html5有哪些新特性？如何处理HTML5新标签的浏览器兼容问题？<br/>
+                                            新特性：<br/>
+                                            (1)绘画 canvas;<br/>
+                                            (2)用于媒介回放的 video 和 audio 元素;<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../html5/html5相关特性二.html">
+                                        <h3>html5的特性二</h3>
+                                        <p class="p1">
+                                            1.HTML5 存储类型有什么区别？<br/>
+                                            localStorage 用于持久化的本地存储，数据永远不会过期，关闭浏览器也不会丢失。<br/>
+                                            sessionStorage 同一个会话中的页面才能访问并且当会话结束后数据也随之销毁。因此sessionStorage不是一种持久化
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href="../html5/本地存储.html">
+                                        <h3>本地存储</h3>
+                                        <p class="p1">
+                                            HTML5中的本地存储概念是什么？<br/>
+                                            很多时候我们会存储用户本地信息到电脑上，例如：比方说用户有一个填充了一半的长表格，然后突然网络连接断开了，这样用户希望你能存储这些信息到本地，当网络恢复的时候，他想获取这些信息然后发送到服务器进行存储
+                                            现代浏览器拥有的存储被叫做“Local Storage”,你可以存储这些信息。<br/>
+                                            我们如何从本地存储中添加和移除数据？<br/>
+                                        <span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>阅读全文</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>移动端
+                        <div class="box">
+                            <ul class="b_list">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="other_articles">
+                <ul class="articles">
+                    <li><span>css相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.tuicool.com/articles/reiYR3m"><li><span>css兼容性问题</span></li></a>
+                            <a href="http://www.cnblogs.com/mofish/archive/2012/10/12/2720949.html"><li><span>css权重问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css优化问题</span></li></a>
+                            <a href="http://www.zhihu.com/question/19886806"><li><span>css列表样式</span></li></a>
+
+                        </ul>
+                    </li>
+                    <li><span>js相关连接</span>
+                    <ul class="articles_ul1">
+                        <a href="http://www.jb51.net/article/14397.htm"><li><span>js刷新页面</span></li></a>
+                        <a href="http://www.jb51.net/article/35535.htm"><li><span>setTimeout的用法</span></li></a>
+                        <a href="http://www.jb51.net/article/25403.htm"><li><span>js页面跳转方式</span></li></a>
+                        <a href="http://www.jb51.net/article/14566.htm"><li><span>cookie使用分析</span></li></a>
+                        <a href="http://www.cnblogs.com/2050/p/3191744.html"><li><span>js跨域</span></li></a>
+                    </ul>
+                    </li>
+                    <li><span>jquery相关连接</span>
+                        <ul class="articles_ul1">
+                            <a href="http://www.jb51.net/article/21213.htm"><li><span>jquery跨域问题</span></li></a>
+                            <a href="http://www.jb51.net/article/30047.htm"><li><span>jquery操作Dom</span></li></a>
+                            <a href="http://www.jb51.net/article/69656.htm"><li><span>jquery信息验证</span></li></a>
+                            <a href="http://www.jb51.net/article/31780.htm"><li><span>jquery的class</span></li></a>
+                            <a href="http://www.jb51.net/article/21628.htm"><li><span> $(document).ready() 与window.onload</span></li></a>
+                        </ul>
+                    </li>
+                    <li><span>css3相关链接</span>
+                        <ul class="articles_ul1">
+                        <a href="http://www.cnblogs.com/afuge/p/3770498.html"><li><span>css3兼容问题</span></li></a>
+                        <a href="http://www.cnblogs.com/lhb25/archive/2011/11/22/best-awesome-css3-animation-demos.html"><li><span>css3动画演示</span></li></a>
+                        <a href="http://blog.csdn.net/freshlover/article/details/7610269"><li><span>box-shadow技巧</span></li></a>
+                        <a href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html"><li><span>css3过渡动画</span></li></a>
+                        <a href="http://caibaojian.com/css3-background-gradient.html"><li><span>css3渐变</span></li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_right">
+            <div class="wrap_right">
+                <ul class="wrap_right_ul">
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index/jingdong/京东首页.html">
+                            <img src="../../img/jingdong.png" alt=""/>
+                            <p class="mask_li">
+                                <span class="mask_li_title">
+                                    仿“京东商城”
+                                </span>
+                                <span class="mask_li_main">
+                                    <i>点这里哦~~~</i>
+                                    <img src="../../img/content-success.gif" alt="" class="dog"/>
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f_left">
+            <p>提</p>
+            <p>高</p>
+            <p>篇</p>
+        </div>
+        <div class="f_right">
+            <ul class="angu">
+                <li class="p_name">angular.js</li>
+                <a href="http://developer.51cto.com/art/201311/416334.htm">1.angular.js七步走</a>
+                <a href="http://www.bdqn.cn/news/201409/15295.shtml">2.angularJS遇见的问题的解决方案</a>
+                <a href="http://www.yyyweb.com/3019.html">3.AngularJS常犯的10个错误</a>
+                <a href="http://www.jb51.net/article/59477.htm">4.angularjs 处理多个异步请求方法汇总</a>
+            </ul>
+            <ul class="node">
+                <li class="p_name">node.js</li>
+                <a href="http://www.360doc.com/content/15/0619/22/20625683_479299340.shtml">node.js开发者常见的10个错误</a>
+                <a href="http://blog.csdn.net/youbl/article/details/36661215">node.js开发集锦</a>
+                <a href="http://www.cnblogs.com/zhoudaozhang/p/4704396.html">node.js跨域访问</a>
+                <a href="http://cnodejs.org/topic/5375765fd6e2d161496e9faa">node.js处理事务的问题</a>
+            </ul>
+            <ul class="php">
+                <li class="p_name">php</li>
+                <a href="http://jingyan.baidu.com/article/c1a3101eeb3ae2de656debb4.html">php常见10大问题</a>
+                <a href="http://www.cnblogs.com/laojie4321/p/4187620.html">php错误和异常处理</a>
+                <a href="http://www.laruence.com/2013/03/26/2884.html">PHP浮点问题</a>
+                
+            </ul>
+            <ul class="ecma">
+                <li class="p_name">ECMAScript6</li>
+                <a href="http://www.oschina.net/news/71566/es6-developers-will-have-to-know">1.ECMAScript6十大特性</a>
+                <a href="http://www.w3ctech.com/topic/741">2.ECMAScript6下一代的js标准</a>
+                <a href="http://blog.csdn.net/ydj9931/article/details/7028390">3.ECMAScript6的6个值得看好的特性</a>
+                <a href="http://www.ituring.com.cn/article/75207">4.ECMAScript6基础知识</a>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="../../js/swiper-3.3.1.min.js"></script>
+<script src="../../js/swiper.animate1.0.2.min.js"></script>
+<script src="../../js/jquery-1.8.3.min.js"></script>
+<script src="../../js/js.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    })
+</script>
+</html>

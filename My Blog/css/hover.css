@@ -1,0 +1,7 @@
+.list li:hover .box{
+    display: block;
+}
+.list li:hover{
+    color: #2dff26;
+    background-color: #57205b;
+}
