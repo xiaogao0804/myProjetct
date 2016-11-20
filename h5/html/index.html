@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css"/>
+    <link rel="stylesheet" href="../css/animate.min.css"/>
+</head>
+<body>
+<div id="wrap1">
+    <div style="width:200px;transform:rotate(-90deg);overflow:hidden;margin:50% auto;">
+    <canvas id='canvas' width='200' height='200'></canvas>
+    </div>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div id='wrap2'>
+            <img src="../images/1.png" alt="" class="flower flower1 ani" swiper-animate-effect='slideInLeft' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+            <img src="../images/2.png" alt="" class="flower flower2 ani" swiper-animate-effect='slideInRight' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+            <img src="../images/3.png" alt="" class="flower flower3 ani" swiper-animate-effect='slideInLeft' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+            <img src="../images/4.png" alt="" class="flower flower4 ani" swiper-animate-effect='slideInRight' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+            <img src="../images/5.png" alt="" class="flower flower5 ani" swiper-animate-effect='slideInLeft' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+           <img src="../images/6.png" alt="" class="flower flower6 ani" swiper-animate-effect='slideInRight' swiper-animate-duration='1.2s' swiper-animate-delay="1.2s">
+           <div class='page-1-box ani' swiper-animate-effect='rotateInDownLeft' swiper-animate-duration='3.3s' swiper-animate-delay="1.6s">
+               <img src="../images/logo2-1.png" alt="" class='logo2-1'>
+               <img src="../images/logo.jpg" alt="" class='logo-1 ani' swiper-animate-effect='fadeInDown' swiper-animate-duration='2.3s' swiper-animate-delay="2.4s">
+               <img src="../images/logodown-1.png" alt="" class='logodown-1'>
+               <img src="../images/logodown2-1.png" alt="" class='logodown2-1 ani' swiper-animate-effect='fadeInUp' swiper-animate-duration='2.3s' swiper-animate-delay="2.4s">
+
+                </div>
+                 <img src="../images/up.png" alt="" class='up'>
+              </div>
+            </div>
+        <div class="swiper-slide">
+            <div id='wrap3'>
+               <img src="../images/logo2.png" alt="" class='logo2'>
+               <img src="../images/page-p1.png" alt="" class='page-p1'>
+               <img src="../images/page-p2.png" alt="" class='page-p2 ani' swiper-animate-effect='fadeIn' swiper-animate-duration='2s' swiper-animate-delay='0.3s'>
+               <img src="../images/page-p3.png" alt="" class='page-p3 ani' swiper-animate-effect='fadeIn' swiper-animate-duration='2s' swiper-animate-delay='1.3s'>
+               <img src="../images/sign.png" alt="" class='sign ani' swiper-animate-effect='fadeIn' swiper-animate-duration='2s' swiper-animate-delay='2.3s'>
+               <img src="../images/page2-d.png" alt="" class='logo2-d ani' swiper-animate-effect='fadeIn' swiper-animate-duration='2s' swiper-animate-delay='3.3s'>
+
+            </div>
+        </div>
+       
+</div>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/swiper-3.3.1.min.js"></script>
+<script src="../js/swiper.animate1.0.2.min.js"></script>
+<script>
+//滑动事件
+ var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop:true,
+     onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+         swiperAnimateCache(swiper); //隐藏动画元素
+         swiperAnimate(swiper); //初始化完成开始动画
+     },
+     onSlideChangeEnd: function(swiper){
+         swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+     }
+  })
+
+//rem换算
+ function resetFont(){
+        var HTML=document.getElementsByTagName('html')[0];
+        var ww=document.documentElement.clientWidth;
+        var Size=ww/640;//PSD设计图宽度
+        HTML.style.fontSize=Size*100+'px';
+    }
+    resetFont();
+    window.onresize=function (){
+        resetFont();
+    }
+
+
+ //进度条
+ function can(num){
+    var canvas=document.getElementById('canvas');
+    cte1=canvas.getContext('2d');
+    cte1.beginPath();
+    cte1.arc(100,100,50,0*Math.PI,num*2*Math.PI,false);
+    cte1.strokeStyle="#f13a3a";
+    cte1.fillStyle="#ffb432";
+    cte1.lineWidth=5;
+    cte1.stroke();
+ }
+     var num=0;
+     var time=null;
+     var wrap1=document.getElementById('wrap1');
+     var wrap2=document.getElementById('wrap2');
+     time=setInterval(function(){
+        if(num>=1){
+            clearInterval(time);
+            wrap1.style.display='none';
+            wrap2.style.display='block';
+        }
+        num+=0.01;
+        can(num);
+ },10)
+
+
+//touchMove事件控制动画时间
+   if(touchMove=true){
+       $('.flower').attr('swiper-animate-delay','0.01s');
+       $('.page-1-box').attr('swiper-animate-delay','0.5s');
+       $('.logo-1').attr('swiper-animate-delay','1s');
+       $('.logodown2-1').attr('swiper-animate-delay','1s');
+   }
+</script>
+</body>
+</html>

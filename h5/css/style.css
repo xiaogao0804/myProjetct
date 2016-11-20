@@ -1,0 +1,193 @@
+/*..........first...............*/
+html,body{
+    /*font-size: 100px;*/
+    height: 100%;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    height: 100%;
+}
+#wrap1{
+    width: 6.4rem;
+    height:100%;
+    background: url("../images/bac2.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.up{
+    position: absolute;
+    bottom:0.15rem;
+    left:50%;
+    margin-left: -0.6rem;
+}
+/*............second.................*/
+
+#wrap2{
+     width: 6.4rem;
+     height:100%;
+     background: url("../images/bac.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+.flower1{
+    width:3.27rem;
+    height:3.77rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.flower2{
+    width: 3.56rem;
+    height:3.81rem;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.flower3{
+    width:5.49rem;
+    height:5.90rem;
+    position: absolute;
+    top:3.26rem;
+    left:0;
+}
+.flower4{
+    width:2.06rem;
+    height:3.30rem;
+    position: absolute;
+    top:3.56rem;
+    right:0;
+}
+.flower5{
+    width:4rem;
+    height:4.55rem;
+    position: absolute;
+    bottom:0rem;
+   left:0;
+}
+.flower6{
+    width:3.96rem;
+    height:4.62rem;
+    position: absolute;
+    bottom:0rem;
+   right:0;
+}
+.page-1-box{
+    width:4.40rem;
+    height:6.40rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -3.15rem;
+    margin-left: -2.35rem;
+    border:6px solid #000;
+    z-index: 2;
+    background:url(../images/page-1-box-bac.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.logo2-1{
+    width:2.05rem;
+    height:0.22rem;
+    position: absolute;
+    top:0.37rem;
+    left:50%;
+    margin-left: -1rem;
+}
+.logo-1{
+    width:3.24rem;
+    height:1.07rem;
+    position: absolute;
+    top:1rem;
+    left:50%;
+    margin-left: -1.6rem;
+}
+.logodown-1{
+    width:3.86rem;
+    height:0.98rem;
+    position: absolute;
+    top:2.69rem;
+    left:50%;
+    margin-left: -1.9rem;
+}
+.logodown2-1{
+    width:3.86rem;
+    height:1.01rem;
+    position: absolute;
+    top:4.40rem;
+    left:50%;
+    margin-left: -1.9rem;
+}
+/*...........third.......................*/
+#wrap3{
+    width: 6.4rem;
+    height:100%;
+    background: url("../images/bac2.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.logo2{
+    width:2.41rem;
+    height:1.70rem;
+    position: absolute;
+    top:0.79rem;
+    left:50%;
+    margin-left: -1.19rem;
+}
+.page-p1{
+    width:5.01rem;
+    height:1.5rem;
+    position: absolute;
+    top:3.17rem;
+    left:50%;
+    margin-left: -2.49rem;
+}
+.page-p2{
+    width:5.22rem;
+    height:0.89rem;
+    position: absolute;
+    top:5.04rem;
+    left:50%;
+    margin-left: -2.49rem;
+}
+.page-p3{
+    width:5.22rem;
+    height:1.25rem;
+    position: absolute;
+    top:6.27rem;
+    left:50%;
+    margin-left: -2.49rem;
+}
+.sign{
+    width:1.21rem;
+    height:0.40rem;
+    position: absolute;
+    bottom: 3rem;
+    right:1.11rem;
+}
+.logo2-d{
+    width:5.18rem;
+    height:1.01rem;
+    position: absolute;
+    bottom:1.33rem;
+    left:50%;
+    margin-left: -2.49rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
