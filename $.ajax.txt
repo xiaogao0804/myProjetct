@@ -9,13 +9,13 @@ $.ajax({
 			console.log(res);
 			g_requsetstate = 0;
 			if(res.status == 800){
-				iconPopHint('³É¹¦',1);
+				iconPopHint('Â³Ã‰Â¹Â¦',1);
 			}else{
 				iconPopHint(res.info,0);
 			}
 		},
 		error:function(){
 			g_requsetstate = 0;
-			iconPopHint('ÍøÂç´íÎó',0);
+			iconPopHint('ÃÃ¸Ã‚Ã§Â´Ã­ÃÃ³',0);
 		}
 	})
