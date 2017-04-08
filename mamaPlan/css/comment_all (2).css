@@ -1,0 +1,314 @@
+/*模块一：最上部的登录注册区域*/
+*{padding: 0;margin:0;text-decoration: none;border: 0;}
+ul { padding:0; margin:0; }
+img{border: 0;}
+li { list-style:none; }
+
+.matuan_main{width: 1182px;
+	  		 margin:0 auto;
+			 display:table;
+			 height:auto;
+			 margin-top:60px;}
+
+.matuan_left_box{width: 785px;
+				 margin-top: 75px;
+				float: left;}	  		 
+
+.matuan_all{
+	width: 785px;
+	margin-left: 0px;
+	height:18px;
+	line-height: 18px;
+	font-family:"Microsoft YaHei";
+	font-size: 18px;
+	font-weight: 700;
+	color: #747F8D;}
+
+.matuan_pregnant{
+	width: 785px;
+	margin-left: 0px;
+	font-family:"Microsoft YaHei";
+	font-size: 12px;
+	color: #6F7A88;}
+
+.clear_both{clear:both;}
+
+.matuan_pregnant_title{
+	width: 785px;
+	height: 55px;
+	float: left;
+	display: block;
+	font-size: 16px;
+	color: #747F8D;
+	line-height: 55px;
+	border-bottom: 1px solid #DCDCDC;}
+
+.matuan_pregnant_box{
+	width: 785px;
+	height:auto;
+	margin-top: 38px;}
+
+.matuan_detail_box{
+	width: 177px;
+	height: 250px;
+	float: left;
+	position: relative;
+	margin-right: 19px;
+	margin-top: 38px;}
+.matuan_detail{
+	width: 175px;
+	height: 208px;
+	border: 1px solid #E1E1E1;
+	background:white;
+	top:1px;left:1px;
+	position: absolute;}
+
+.matuan_detail_face{
+	width: 80px;
+	height: 80px;
+	border: 2px solid #D2D2D2;
+	display: block;
+	overflow: hidden;
+	margin-left: 44px;
+	margin-top:20px;
+	position: relative;
+	border-radius: 50%;}
+
+.matuan_detail_face img{
+	position: absolute;
+	top:-1px;left:-1px;}
+
+.matuan_detail_mathor{
+	width: 175px;
+	margin-top: 10px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	color: #6F7A88;
+	background: white;
+	text-align: center;}
+
+.matuan_detail_mathor:hover{color: #FF5D98;}
+
+.matuan_grouper{
+	width: 175px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	display: block;
+	color: #6F7A88;
+	background: white;
+	text-align: center;}
+
+.matuan_grouper_second{
+	width: 175px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	display: block;
+	color: #6F7A88;
+	background: white;
+	text-align: center;}
+
+.matuan_member{
+	width: 175px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	display: block;
+	color: #6F7A88;
+	background: white;
+	text-align: center;}
+
+.matuan_join{
+	width: 87px;
+	height: 24px;
+	font-size: 14px;
+	line-height: 23px;
+	display: block;
+	color: #38495C;
+	background: #EEEEEE;
+	border: 1px solid #CECECE;
+	position: absolute;
+	top: 225px;left:44px;
+	text-align: center;}
+
+.matuan_join:hover{color: #FF5D98;border: 1px solid #FF5D98;}
+
+/*麻团-右侧*/
+.matuan_right_box{
+	width: 342px;
+	height: auto;
+	float: left;
+	margin-left: 53px;}
+
+.matuan_love_box{
+	width: 342px;
+	height: 28px;
+	margin-top: 75px;
+	border-bottom: 1px solid #FF5D98;
+	background: white;}
+
+.matuan_love_box p{
+	width: 87px;
+	height:28px;
+	background: #FF5D98;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	line-height: 28px;
+	font-weight: 700;
+	font-family:"Microsoft YaHei";}
+
+.matuan_today_box{
+	width: 342px;
+	height: 120px;
+	position: relative;
+	background: white;}
+
+.matuan_today_fabu{
+	width: 130px;
+	height: 18px;
+	font-family:"Microsoft YaHei";
+	line-height: 18px;
+	font-size: 18px;
+	color:#FF5D98;
+	font-weight: 700;
+	display: block;
+	text-align: right;
+	position: absolute;
+	top:30px;left:0px;}
+
+.matuan_today_replay{
+	width: 131px;
+	height: 18px;
+	font-family:"Microsoft YaHei";
+	line-height: 18px;
+	font-size: 18px;
+	color:#FF5D98;
+	font-weight: 700;
+	display: block;
+	text-align: left;
+	position: absolute;
+	top:30px;right:0px;}
+
+.matuan_today_fabu_txt{
+	font-family:"Microsoft YaHei";
+	font-size: 18px;
+	color:#FF5D98;
+	position: absolute;
+	left:65px; top:58px;}
+
+.matuan_today_replay_txt{
+	font-family:"Microsoft YaHei";
+	font-size: 18px;
+	color:#FF5D98;
+	position: absolute;
+	left:202px; top:58px;}
+
+.matuan_baby_box{
+	width: 342px;
+	height: 228px;
+	background: #FF5D98;
+	position: relative;}
+
+.matuan_baby_face{
+	width: 123px;
+	height: 120px;
+	background: white;
+	border-radius: 50%;
+	border: 2px solid #D2D2D2;
+	position: absolute;
+	left:32px;top:29px;
+	display: block;
+	overflow: hidden;}
+
+.matuan_baby_face img{
+	position: absolute;
+	left:-1px;top:-1px;}
+
+.matuan_baby_jineng{
+	font-family: "Microsoft YaHei";
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	left:187px;top:41px;}
+
+.matuan_baby_member{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: white;
+	position: absolute;
+	left:202px;top:70px;}
+
+.matuan_baby_join{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	color: #A9A9A9;
+	position: absolute;
+	left:190px;top:105px;
+	width: 103px;
+	height: 31px;
+	line-height: 31px;
+	background: #EEEEEE;
+	border: 1px solid #CECECE;
+	text-align: center;}
+
+.matuan_baby_join:hover{color: #FF5D98;border: 1px solid white;}
+
+.matuan_baby_new{
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	left:33px;top:175px;
+	width: 275px;
+	height: 25px;
+	line-height: 28px;
+	border-bottom: 1px solid white;}
+
+.matuan_hot_box{
+	width: 342px;
+	height: 28px;
+	background: white;
+	margin-top: 50px;
+	border-bottom: 1px solid #F74D86;}
+
+.matuan_hot_box p{
+	width: 87px;
+	height:28px;
+	background: #FF5D98;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	line-height: 28px;
+	font-weight: 700;
+	font-family:"Microsoft YaHei";}
+
+.matuan_hot_content{
+	width: 342px;
+	height:auto;
+	font-size: 12px;
+	font-family:"Microsoft YaHei"; 
+	background: white;}
+
+.matuan_hot_txt{
+	width: 338px;
+	height: 19px;
+	color: #38495C;
+	text-indent: 9px;
+	margin-top: 12px;
+	display: block;
+	border-left: 4px solid #FF5D98;
+	line-height: 19px;}
+
+.matuan_hot_txt:hover{color: #FF5D98;}
+
+
+
+
+
+
+
+

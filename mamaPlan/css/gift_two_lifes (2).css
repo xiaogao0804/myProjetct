@@ -1,0 +1,33 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrappers{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+.present{ margin-top:50px;}
+/*====================妈妈计划礼物页 瀑布流样式====================*/
+/* wrapper */
+#wrapper{margin-top:70px;width:100%;}
+#container{position:relative;width:1182px;margin:0 auto 20px;padding-bottom:10px;}
+.grid{width:370px;min-height:100px;padding:0px;background:#fff;font-size:12px; margin:12px;float:left;box-shadow:0 1px 3px #D1D1D1;-moz-box-shadow:0 1px 3px #D1D1D1;-webkit-box-shadow:0 1px 3px #D1D1D1;-webkit-transition:bottom 1s ease, left 1s ease;-moz-transition:bottom 1s ease, left 1s ease;-o-transition:bottom 1s ease, left 1s ease;-ms-transition:bottom 1s ease, left 1s ease;}
+.grid strong{border-bottom:1px solid #ccc;margin:10px 0;display:block;padding:0 0 5px;font-size:17px;}
+.grid .meta{text-align:right;color:#777;font-style:italic;}
+.grid .imgholder{ position:relative;}
+.grid .imgholder img{width:100%;display:block; cursor:pointer;}
+.grid .imgholder .gift_love{ position:absolute;right:0px; top:0px;border:1px solid #D1D1D1;background:#fff;padding:5px 10px;display:block;}
+.grid .imgholder .gift_love img{ display:block; width:18px; height:15px;}
+.grid .imgholder .gift_love a{ display:block; color:#37495B; font-size:14px;}
+.grid .imgholder .gift_love a span{ display:block; float:left; margin-right:5px;}
+.picheader{margin:0 auto 25px;}
+.grid_article{ width:320px;border-bottom:1px solid #DCDCDC; margin-left:30px; padding-bottom:15px;}
+.grid_article .grid_article_one a{ display:block; color:#38495C; font-size:16px; font-weight:bold;}
+.grid_article .grid_article_one{ margin-top:24px;}
+.grid_article .grid_article_two a{ display:block; color:#38495C; font-size:14px; line-height:20px;}
+.grid_article .grid_article_two{ margin-top:10px;}
+.lifes_click{ margin-top:20px; margin-left:28px; display:table; padding-bottom:30px;}
+.lifes_click .dis_tilte_left{ float:left;}
+.lifes_click .dis_tilte_left a{ display:block;}
+.lifes_click .dis_tilte_left img{ display:block;width:46px; height:46px;-moz-border-radius:46px;-ms-border-radius:46px; -O-border-radius:46px;-webkit-border-radius:46px;border-radius:46px;}
+.lifes_click .dis_tilte_right{ float:left; margin-left:15px;}
+.lifes_click .dis_tilte_right .dis_fb{padding-top:5px;}
+.lifes_click .dis_tilte_right .dis_fb a{ color:#FC518D; font-size:14px;}
+.lifes_click .dis_fb_time a{ display:block;color:#6F7A88; font-size:14px; margin-top:5px;}

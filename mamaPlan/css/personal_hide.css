@@ -1,0 +1,43 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+/*====================妈妈计划个人中心页 主体样式====================*/
+.personal_main{ height: auto; display:table;width:1182px; margin:0 auto;}
+/*====================妈妈计划个人中心页 我的收藏 TAB切换页====================*/
+/*====================妈妈计划礼物页 礼物详情 礼物评论 样式====================*/
+.personal_collect{ margin-top:90px;}
+.collect_tab{ width:1182px; height:auto; margin-top:15px;}
+.collect_message{ width:1182px; height:38px; border-bottom:1px solid #DDDDDD;}
+.collect_message span{ display:block; width:98px; height:38px;border:none;float:left; margin-right:9px; text-align:center; line-height:38px; color:#7A8491; font-size:16px; font-weight:bold;}
+.collect_message .nos{display:block; width:98px; height:39px; float:left;border-bottom:2px solid #FF5D98;color:#FF5D98; margin-top:-2px;}
+#collect_0 .collect_left{ height:auto; display:table;}
+#collect_0  .collect_left_big{ float:left;margin-top:44px;}
+#collect_0 .collect_left .collect_left_timebg{ float:left; width:1px; min-height:508px;background:url(../images/collect_line.png) no-repeat; margin-left:10px; height:auto;}
+#collect_0 .collect_left .collect_left_con{ float:left; margin-left:-10px; margin-top:-18px;}
+#collect_0 .collect_right{ float:left;margin-top:44px;}
+#collect_0 .collect_left_con_mainone .collect_left_con_main_left{ float:left;}
+#collect_0 .collect_left_con_mainone .collect_left_con_main_right{ float:left; margin-left:30px;}
+#collect_0 .collect_left_con_mainone .collect_left_con_main_right span{ display:block; font-size:16px; font-weight:bold; color:#959DA8;}
+#collect_0 .collect_left_con_maintwo{ margin-top:48px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_left{ float:left;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right{ float:left; margin-left:30px; width:787px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right span{ display:block; font-size:16px; font-weight:bold; color:#959DA8;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one{ height:auto;display:table;border-bottom:1px solid #DCDCDC; padding-bottom:10px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title a{ display:block; float:left;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title .infor_title_big{ color:#37485B; font-size:22px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title .collect_delate{ display:block; float:right; font-size:14px; color:#6F7A88; margin-top:10px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title .collect_delate img{display:block;margin-left:5px; float:right; margin-top:5px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title .infor_select_small{ color:#FF77A7; font-size:12px; margin-left:30px; margin-top:10px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_title span{ display:block; float:left; font-size:12px; margin-top:10px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_main{ margin-top:25px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_main p{ font-size:14px; color:#ABB1BA; line-height:25px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_share{ margin-top:25px; float:right;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_share ul li{ float:left; margin-left:20px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_share ul li a{ display:block; color:#9CA4AE; font-size:14px;}
+#collect_0 .collect_left_con_maintwo .collect_left_con_main_right .infor_left_one .infor_share ul li a img{ display:block; margin-right:5px; float:left; margin-top:-2px;}
+#collect_0 .collect_right_big{ float:right;}
+
+.collect_tab_add .collect_tab_add_left{ float:left;}
+.collect_tab_add .set_tab_add_right{ float:right;}

@@ -1,0 +1,31 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+/*====================忘记密码样式====================*/
+.forget_main{ width:1182px; height:auto; display:table;border:1px solid #E1E1E1; margin:0 auto; margin-top:60px; padding-bottom:60px;}
+.forget_main .forget_main_left{ float:left; padding-left:70px;}
+.forget_main .forget_main_left .forget_main_left_one{ padding-top:50px;}
+.forget_main .forget_main_left .forget_main_left_one h2{ color:#38495C; font-size:22px;}
+.forget_main .forget_main_left .forget_main_left_two{width:490px; height:38px; background:#E6EAED;margin-top:44px;}
+.forget_main .forget_main_left .forget_main_left_two span{ display:block; margin-left:20px; float:left; margin-top:12px;}
+.forget_main .forget_main_left .forget_main_left_two input{ width:428px; height:30px;border:none; background:#E6EAED; margin-top:4px; margin-left:5px;}
+.forget_main .forget_main_left .forget_main_left_three{ margin-top:30px;}
+.forget_main .forget_main_left .forget_main_left_three .forget_main_left_three_left{ float:left;}
+.forget_main .forget_main_left .forget_main_left_three .forget_main_left_three_left span{ display:block; color:#38495C; font-size:14px; margin-top:7px;}
+.forget_main .forget_main_left .forget_main_left_three .forget_main_left_three_right{ float:left; margin-left:45px;}
+.forget_main .forget_main_left .forget_main_left_three .forget_main_left_three_right a{ display:block;-moz-border-radius:3px;-ms-border-radius:3px; -O-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; background:#959DA8; color:#fff; padding:5px 10px; font-size:22px;}
+.forget_main .forget_main_left .forget_main_left_four{ margin-top:170px;}
+.forget_main .forget_main_left .forget_main_left_four a{ display:block; font-size:20px;color:#38495C; font-weight:bold;}
+.forget_main .forget_main_left .forget_main_left_four a:hover{ display:block; font-size:20px;color:#F74D86; font-weight:bold;}
+.forget_main .forget_main_center{ float:left; width:1px; height:362px; background:#DCDCDC; margin-left:205px; margin-top:60px;}
+.forget_main .forget_main_right{ float:left; margin-left:40px;}
+.forget_main .forget_main_right .forget_main_right_one{ margin-top:50px;}
+.forget_main .forget_main_right .forget_main_right_one ul li{ color:#38495C; font-size:18px; font-weight:bold;}
+.forget_main .forget_main_right .forget_main_right_one ul li a{ color:#858E99; font-size:16px;}
+.forget_main .forget_main_right .forget_main_right_one ul .forget_cur{ margin-top:18px;}
+.forget_main .forget_main_right .forget_main_right_two{ margin-top:50px;}
+.forget_main .forget_main_right .forget_main_right_two ul li{ color:#38495C; font-size:18px; font-weight:bold;}
+.forget_main .forget_main_right .forget_main_right_two ul li a{ color:#858E99; font-size:16px;}
+.forget_main .forget_main_right .forget_main_right_two ul .forget_cur{ margin-top:18px;}

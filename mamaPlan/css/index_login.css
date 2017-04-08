@@ -1,0 +1,146 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页  右边日历====================*/
+.main .main_right .great_main{ width:282px; height:320px; background:#FF5D98;}
+.main .main_right .great_main .great_title h1{border-bottom:1px solid #fff; width:213px; margin-left:34px; text-align:center; color:#fff; font-size:80px; line-height:130px;}
+.main .main_right .great_main .great_pic dl{ float:left; margin-top:50px; margin-left:30px;}
+.main .main_right .great_main .great_pic dl dt{ margin-left:30px;}
+.main .main_right .great_main .great_pic dl dd{  color:#fff; font-size:20px; margin-left:20px; margin-top:20px;}
+
+/*====================妈妈计划首页  头部  登录后状态====================*/
+.header .header_right{ float:right;}
+.header .header_right .logins .ul{ margin-top:20px;}
+.header .header_right .logins .ul li{ float:left;}
+.header .header_right .logins .ul li .a{ display:block; color:#E34F83; font-size:14px; text-align:center; line-height:32px; float:left;margin-left:25px;}
+.header .header_right .logins .ul  .user_set{ margin-top:10px;position: relative;}
+.header .header_right .logins .ul  .user_win{ margin-top:12px;position: relative;}
+.header .header_right .logins .ul  .user_love{ margin-top:12px; margin-right:-18px;}
+.header .header_right .logins .ul  .user_number{ margin-top:2px; }
+.header .header_right .logins .ul  .user_name{ margin-top:2px; }
+.header .header_right .logins .ul  .user_header{ margin-right:-15px; margin-top:-2px; }
+.header .header_right .logins .ul  .user_header a{ display:block;}
+.header .header_right .logins .ul  .user_header img{ display:block;width:46px; height:46px;-moz-border-radius:46px;-ms-border-radius:46px; -O-border-radius:46px;-webkit-border-radius:46px;border-radius:46px;}
+
+/*====================妈妈计划首页  头部  设置====================*/
+.user_set_hide_box{
+	width: 87px;
+	height:150px;
+	background:white;
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	display: none;
+	border: 1px solid #ECECEC;
+	-moz-box-shadow:2px 2px 2px #ECECEC;
+	-webkit-box-shadow:2px 2px #ECECEC;           
+    box-shadow:2px 2px 2px #ECECEC; 
+	position:absolute;
+	top:30px;left:-10px;}
+
+.user_set_img{
+	position: absolute;
+	left:30px;top:-10px;}
+
+.user_set_ul{
+	width: 87px;
+	border-bottom: 1px solid #DCDCDC;
+	height:114px;}
+
+.user_set_ul li{
+	display: block;
+	height: 29px;}
+
+.user_set_ul li a{
+	font-size: 12px;
+	color: #38495C;
+	font-family: 微软雅黑;
+	display: block;
+	text-indent: 17px;
+	height: 29px;
+	line-height: 29px;}
+
+.user_set_ul li a:hover{color:#FF5D98;}
+
+.user_set_exit{
+	font-family: 微软雅黑;
+	position: absolute;
+	top:127px;left:23px;
+	font-size: 10px;
+	color: #747F8D;}
+
+.user_set_exit:hover{color:#FF5D98;}
+
+/*====================妈妈计划首页  头部  新消息====================*/
+.user_redpoint{
+	position: absolute;
+	top:-4px;right:-4px;}
+
+.user_win_hide_box{
+	width: 120px;
+	height:150px;
+	background:white;
+	-moz-box-shadow:2px 2px 2px #ECECEC;
+	-webkit-box-shadow:2px 2px #ECECEC;           
+    box-shadow:2px 2px 2px #ECECEC; 
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	display: none;
+	border: 1px solid #ECECEC;
+	position:absolute;
+	top:30px;left:-20px;}
+
+.user_win_img{
+	position: absolute;
+	left:40px;top:-10px;}
+
+.user_win_ul{
+	width: 120px;
+	display: block;
+	border-bottom: 1px solid #DCDCDC;
+	height:116px;}
+
+.user_win_ul li{
+	width: 120px;
+	float: left;
+	display: block;
+	height: 29px;}
+
+.user_win_ul li a{
+	font-size: 12px;
+	color: #38495C;
+	font-family: 微软雅黑;
+	display: block;
+	position: relative;
+	text-indent: 16px;
+	height: 29px;
+	line-height: 29px;}
+
+.user_win_ul li a:hover{color:#FF5D98;}
+
+.user_win_ul li .user_win_top_a{
+	color: #747F8D;
+	font-size: 10px;
+	text-indent: 16px;}
+
+.user_win_ul li a span{
+	color: #FF0000;
+	display: block;
+	position: absolute;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	left: 85px;top:0;}
+
+.user_set_ingore{
+	font-family: 微软雅黑;
+	position: absolute;
+	top:127px;left:40px;
+	font-size: 10px;
+	color: #747F8D;}
+
+.user_set_ingore:hover{color:#FF5D98;}
+
+
+
+
+

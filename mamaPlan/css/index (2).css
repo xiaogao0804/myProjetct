@@ -1,0 +1,121 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:0px;}
+.main{ height:auto;}
+.main .main_left{ float:left; width:855px;}
+/*====================妈妈计划首页 banner样式====================*/
+.main .main_left .banner{ height:320px; margin-top:43px;}
+.main .main_left .banner .banner_left{ float:left; width:477px;position:relative;}
+.main .main_left .banner .banner_left a{ display:block;color:#fff;filter:(opacity=80);opacity:0.8;}
+.main .main_left .banner .banner_left a:hover{ display:block;color:#fff;filter:(opacity=100);opacity:1;}
+.main .main_left .banner .banner_left .banner_left_win{}
+.main .main_left .banner .banner_left .banner_left_win h1{ position:absolute;font-size:22px; margin-left:20px; color:#fff; font-weight:100; position:absolute;bottom:20px;}
+.main .main_left .banner .banner_right{ float:left; width:374px;}
+.main .main_left .banner .banner_right .banner_right_pic_one{ width:184px; height:160px; background:url(../images/banner_pic01.png) no-repeat; text-align:center; float:left;}
+.main .main_left .banner .banner_right .banner_right_pic_two{ width:184px; height:160px; background:url(../images/banner_pic04.png) no-repeat;text-align:center;float:left;}
+.main .main_left .banner .banner_right .banner_right_pic_three{ width:184px; height:160px; background:url(../images/banner_pic02.png) no-repeat;text-align:center;float:left;}
+.main .main_left .banner .banner_right .banner_right_pic_four{ width:184px; height:160px; background:url(../images/banner_pic03.png) no-repeat;text-align:center;float:left;}
+.main .main_left .banner .banner_right a{ display:block; font-size:14px;text-align:center; color:#fff; padding:65px 30px; line-height:20px;}
+/*====================妈妈计划首页 礼物样式====================*/
+/*====================妈妈计划首页 推荐====================*/
+.main .main_left .main_gift{ height:auto; display:table; margin-top:46px;}
+.main .main_left .main_gift .main_gift_left{ float:left; width:225px;}
+.main .main_left .main_gift .main_gift_left .recommend{ height:auto; display:table;}
+.main .main_left .main_gift .main_gift_left .recommend h1{ font-size:18px; color:#747F8D;}
+.main .main_left .main_gift .main_gift_left .recommend ul{ margin-top:15px; margin-left:15px;}
+.main .main_left .main_gift .main_gift_left .recommend ul li a{ display:block; font-size:16px; color:#38485B; font-weight:bold; line-height:30px;}
+/*====================妈妈计划首页 微信二维码====================*/
+.main .main_left .main_gift .main_gift_left .weixin{ height:auto; display:table; position:static;top:820px;}
+.main .main_left .main_gift .main_gift_left .weixin_cur{ position:fixed;top:90px;}
+.main .main_left .main_gift .main_gift_left .weixin .weixin_win{ margin-top:50px;}
+.main .main_left .main_gift .main_gift_left .weixin .weixin_win .or{ margin-left:25px; margin-top:5px;}
+.main .main_left .main_gift .main_gift_left .weixin .weixin_win span{ display:block; color:#9DA5AE; font-size:14px;}
+.main .main_left .main_gift .main_gift_left .weixin  .weixin_pic img{ display:block; margin-top:10px;}
+/*====================妈妈计划首页 礼物块儿====================*/
+.main .main_left .main_gift .main_gift_right{ float:right;width:620px;}
+.main .main_left .main_gift .main_gift_right .present_title{ height:50px;}
+.main .main_left .main_gift .main_gift_right .present_title span{ display:block; font-size:18px; font-weight:bold; float:left; color:#747F8D;}
+.main .main_left .main_gift .main_gift_right .present_title a{ display:block; font-size:16px; font-weight:bold; float:left; color:#747F8D; float:right;}
+.main .main_left .main_gift .main_gift_right .present_pic{ width:620px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand{ width:620px; height: auto; display:table; position:relative;}
+.present_cur{ margin-right:35px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand a{display:block;width:183px;height:183px;-moz-border-radius:183px;-ms-border-radius:183px; -O-border-radius:183px;-webkit-border-radius:183px;border-radius:183px;position:relative; text-align:center; float:left; margin-top:25px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand img{width:183px;height:183px;-moz-border-radius:183px;-ms-border-radius:183px; -O-border-radius:183px;-webkit-border-radius:183px;border-radius:183px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand .info{display:none;width:183px;height:183px;background:url(../images/present_bg.png) no-repeat;}
+
+.main .main_left .main_gift .main_gift_right .present_pic .brand .info ul{padding-top:35px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand .info ul li{ color:#fff; font-size:14px; line-height:25px;}
+.main .main_left .main_gift .main_gift_right .present_pic .brand .info img{ display:none;}
+.main .main_left .main_gift .main_gift_right .present_pic .vertical .info{width:0;height:183px;margin:0 auto;}
+.main .main_left .main_gift .main_gift_right .present_pic a .gift_my{ margin-top:20px;}
+.main .main_left .main_gift .main_gift_right .present_pic a .gift_my span{ display:block; font-size:14px; color:#38495C;}
+.main .main_right{ float:right; margin-top:43px;}
+/*====================妈妈计划首页 有料====================*/
+.main_zx{ margin-top:140px;}
+.main_zx .present_title{border-bottom:1px solid #DCDCDC;}
+.main_zx .informaintion_main{ display:table; height:auto;border-bottom:1px solid #DCDCDC; padding-bottom:30px;}
+.main_zx .informaintion_main .infor_baby{ height:47px;}
+.main_zx .informaintion_main .infor_baby p{ float:right; line-height:47px;}
+.main_zx .informaintion_main .infor_baby p a{ display:block; color:#FF5D98; font-size:14px; float:left;}
+.main_zx .informaintion_main .infor_baby p span{ display:block; font-size:14px; color:#6F7A88; float:right;}
+.infor_pic .infor_pic_left{ float:left; position:relative; width:183px;}
+.infor_pic .infor_pic_left .infor_number{ position:absolute;top:0px;left:0px;}
+.infor_pic .infor_pic_left .infor_number a{ display:block; width:40px; height:24px; background:#FC518D; font-size:14px; color:#fff; text-align:center; line-height:24px;}
+.infor_pic .infor_pic_right{ float:left; width:420px; margin-left:15px;}
+.infor_pic .infor_pic_right .infor_bigtitle{ color:#5C6876; font-size:22px;}
+.infor_pic .infor_pic_right .infor_smalltitle{ color:#5C6876; font-size:14px; margin-top:20px; line-height:25px;}
+/*====================妈妈计划首页 麻团====================*/
+.discuss{ margin-top:45px;}
+.discuss .discuss_time_left{ float:left; width:58px;}
+.discuss .discuss_time_left img{ display:block; margin-top:20px;}
+.discuss .discuss_time_right{ float:left; width:560px;}
+.discuss .discuss_time_right .discuss_main{ width:560px; display:table;border-bottom:1px solid #DCDCDC; padding-bottom:10px;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_left{ float:left;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_left a{ display:block;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_left img{ display:block; width:46px; height:46px;-moz-border-radius:46px;-ms-border-radius:46px; -O-border-radius:46px;-webkit-border-radius:46px;border-radius:46px;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_right{ float:left; margin-left:15px;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_right .dis_fb{padding-top:5px;}
+.discuss .discuss_time_right .dis_tilte .dis_tilte_right .dis_fb a{ color:#FC518D; font-size:14px;}
+.discuss .discuss_time_right .dis_fb_time{ color:#9098A2; font-size:14px; margin-top:5px;}
+.discuss_main .dis_win{ margin-top:25px;}
+.discuss_main .dis_win .dis_win_left{float:left;}
+.discuss_main .dis_win .dis_win_left p a{ display:block; color:#37485B; font-size:20px; font-weight:bold;}
+.discuss_main .dis_win .dis_win_right{ float:right;}
+.discuss_main .dis_win .dis_win_right p a{ display:block; color:#FF77A7; font-size:14px; float:left; margin-top:10px;}
+.discuss_main .dis_win .dis_win_right p a span{ display:block; float:right; font-size:14px; color:#9AA1AA;}
+.discuss_main .dis_detail p{ margin-top:20px;}
+.discuss_main .dis_detail p a{ display:block; color:#959DA8; font-size:14px; line-height:25px;}
+.discuss_main .dis_look{ margin-top:20px;}
+.discuss_main .dis_look a{ display:block; float:right; color:#9AA1AA; font-size:14px;}
+/*====================妈妈计划首页  右边日历====================*/
+.main .main_right .date_main{ width:282px; height:320px; background:#FF5D98;}
+.main .main_right .date_main .date_title h1{border-bottom:1px solid #fff; width:213px; margin-left:34px; text-align:center; color:#fff; font-size:80px; line-height:130px;}
+.main .main_right .date_main .date_pic dl{ float:left; margin-top:50px; margin-left:30px;}
+.main .main_right .date_main .date_pic dl dt{ margin-left:30px;}
+.main .main_right .date_main .date_pic dl dd{  color:#fff; font-size:20px; margin-left:20px; margin-top:15px;}
+/*====================妈妈计划首页  右边礼物评论====================*/
+.main .main_right .comment_title{ margin-top:48px;}
+.main .main_right .comment_title h1{ width:282px;border-bottom:1px solid #F74D86;}
+.main .main_right .comment_title span{ display:block; width:88px; height:30px; background:#F74D86; color:#fff; font-size:14px; text-align:center; line-height:30px;}
+.main .main_right .comment_time{ margin-top:15px;}
+.main .main_right .comment_time a{ display:block; color:#F74D86; font-size:16px; float:left;}
+.main .main_right .comment_time span{ display:block; color:#6F7A88; font-size:16px;}
+.main .main_right .comment_win{border-bottom:1px solid #E6EAED;}
+.main .main_right .comment_win .demo {margin-bottom:20px;position:relative; width:282px; margin-top:15px;}
+.main .main_right .comment_win .triangle {position:absolute;margin-top:-8px;left:20px;display:block;width:0;height:0;overflow:hidden;
+line-height:0;font-size:0;border-bottom:8px solid #E6EAED;border-top:none;border-left:8px solid #FFF;border-right:8px solid #FFF;
+}
+.main .main_right .comment_win .demo .article {float:left; color:#FFF;display:inline-block;*display:inline; zoom:1;padding:5px 10px; border:1px solid #E6EAED;background:#E6EAED;background-color:#E6EAED;}
+.main .main_right .comment_win .demo .article p{ color:#5B6978; font-size:14px; padding:5px; line-height:18px;}
+.main .main_right .comment_from p{color:#5B6978; font-size:14px; margin-bottom:15px;}
+/*====================妈妈计划首页  深度====================*/
+.topics{ margin-top:53px;}
+.topics .topics_title span{ display:block; color:#747F8D; font-size:14px; font-weight:bold;border-bottom:1px solid #F74D86; line-height:34px;margin-bottom:10px;}
+.topics .topics_title span img{ display:block; float:left; margin-top:5px; margin-right:10px;}
+.topics .topics_pic dl{ width:282px; margin-top:30px;}
+.topics .topics_pic dl dt{ width:282px; height:187px;}
+.topics .topics_pic dl dt img{ display:block;width:282px; height:187px;}
+.topics .topics_pic dl dd{ width:282px; height:41px;  background:#717D89;}
+.topics .topics_pic dl dd a{ display:block; color:#fff; font-size:16px; font-weight:bold; line-height:41px; margin-left:25px;}
+

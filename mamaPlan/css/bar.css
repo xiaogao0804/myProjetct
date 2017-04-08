@@ -1,0 +1,169 @@
+/*模块一：最上部的登录注册区域*/
+*{padding: 0;margin:0;text-decoration: none;border: 0;}
+ul { padding:0; margin:0; }
+img{border: 0;}
+li { list-style:none; }
+/*bar_main*/
+.bar_main{
+	width: 1182px;
+	height: auto;
+	margin-top: 40px;
+	background: yellow;
+	margin: 0 auto;}
+
+.bar_left_box{
+	margin-top:40px;
+	width: 340px;
+	height:585px;
+	border:1px solid #ECECEC;
+	float: left;
+	position: relative;}
+
+ .bar_left_top{
+ 	display: block;
+ 	width: 284px;
+ 	height: 163px;
+ 	border-bottom: 1px solid #DCDCDC;
+ 	position: absolute;
+ 	left:28px;top:0;}
+
+ .bar_left_img_box{
+ 	display: block;
+ 	width: 284px;
+ 	height: auto;
+ 	text-align: center;
+ 	position: absolute;
+ 	left:0;top:65px;}
+
+ .bar_tab_total_box{
+ 	width: 285px;
+ 	height: 320px;
+ 	overflow: hidden;
+ 	background: white;
+ 	position: absolute;
+ 	top:200px;left:28px;}
+
+.bar_tab_left{
+	cursor: pointer;
+	width: 16px;
+	height: 20px;
+	line-height:20px;
+	text-indent:5px;
+	font-size: 12px;
+	background: #E6EAED;
+	color:#485768;
+	position: absolute;
+	top:546px;right:50px;}	
+
+.bar_tab_left:hover{color: #FF5D98;}
+
+.bar_tab_right{
+	cursor: pointer;
+	width: 16px;
+	height: 20px;
+	line-height:20px;
+	text-indent:5px;
+	font-size: 12px;
+	background: #E6EAED;
+	color:#485768;
+	position: absolute;
+	top:546px;right:28px;}
+
+.bar_tab_right:hover{color: #FF5D98;}
+
+.bar_tab_big_box{
+	width: 2850px;
+	position: absolute;
+	left:0px;top:0;
+ 	height: 150px;}
+
+ .bar_tab_inside_box{
+ 	position:relative;
+ 	cursor: pointer;
+ 	width: 285px;
+ 	height: 320px;
+ 	float: left;}
+
+ .bar_img1{
+ 	position: absolute;
+ 	top:0;left:0;
+ 	width: 285px;
+ 	height: 320px;}
+
+.bar_right_box{
+	margin-top: 40px;
+	margin-left: 53px;
+    margin-bottom:50px; 
+	width: 782px;
+	height:auto;
+	float: left;}
+
+/*...............右侧..............................*/
+.bar_right_top_title{
+	width: 782px;
+	height:22px;
+	line-height: 22px;
+	display: block;
+	font-size: 22px;
+	word-wrap: break-word;
+    word-break: normal;
+	color:#37485B;
+	font-family: "微软雅黑";}
+
+.bar_right_country{
+	font-size: 12px;
+	word-wrap: break-word;
+    word-break: normal;
+	color:#858E99;
+	font-family: "微软雅黑";
+	width: 782px;
+	height:12px;
+	line-height: 12px;
+	margin-top: 30px;
+	display: block;}
+
+.bar_right_produce{
+	font-size: 12px;
+	word-wrap: break-word;
+    word-break: normal;
+	color:#858E99;
+	font-family: "微软雅黑";
+	width: 782px;
+	height:12px;
+	line-height: 12px;
+	margin-top: 6px;
+	display: block;}
+
+.bar_content_box{
+	margin-top: 40px;
+	width: 780px;
+	height: auto;
+	word-wrap: break-word;
+    word-break: normal;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 25px;
+    color:#343433;}
+
+.bar_content_title{
+	width: 780px;
+	height: auto;
+	line-height: 25px;
+	word-wrap: break-word;
+    word-break: normal;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    line-height: 25px;
+    color:#343433;
+    font-weight: 700;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,153 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+/*====================妈妈计划礼物页 详情页样式====================*/
+.gift_detail{ margin-top:50px;}
+.gift_detail .gift_detail_left{ float:left;}
+/*====================妈妈计划礼物页 详情页 礼物包 样式====================*/
+/* qqshop focus */
+.gift_del_active .gift_del_active_left{ float:left;}
+.gift_del_active .gift_del_active_right{ float:left; margin-left:35px;}
+.gift_del_active .gift_del_active_right .active_title p{ color:#38495C; font-size:22px;}
+.gift_del_active .gift_del_active_right .active_title_love{ margin-top:20px;}
+.gift_del_active .gift_del_active_right .active_title_love p img{ display:block; float:left;}
+.gift_del_active .gift_del_active_right .active_title_love p span{ display:block; float:left;}
+.gift_del_active .gift_del_active_right .active_title_love p .active_number{ font-size:30px; color:#FF5D98; margin-top:-10px; margin-left:5px; margin-right:5px;}
+.gift_del_active .gift_del_active_right .comment{ margin-top:25px;}
+.gift_del_active .gift_del_active_right .comment p span{ display:block; color:#747F8D; float:left; font-size:16px; height:33px; padding:0px 10px; line-height:33px;}
+.gift_del_active .gift_del_active_right .comment p .comment_count{border-left:1px solid #DCDCDC;border-right:1px solid #DCDCDC;}
+.gift_del_active .gift_del_active_right .comment p .comment_number{border-right:1px solid #DCDCDC;}
+.gift_del_active .gift_del_active_right .active_title_love p .active_loves{ font-size:16px;color:#FF5D98}
+.gift_del_active .gift_del_active_right .time{height:auto; margin-top:30px;}
+.gift_del_active .gift_del_active_right .time ul li a{ display:block; font-size:16px; line-height:25px; color:#747F8D}
+.gift_del_active .gift_del_active_right .time ul li a span{ margin-right:12px;}
+.gift_del_active .gift_del_active_right .time01 a{ display:block; width:170px; height:42px; background:#FC518D; color:#fff; text-align:center; line-height:42px; font-size:22px; margin-top:60px; margin-left:50px;}
+.gift_del_active .gift_del_active_right .time02{ margin-top:50px;}
+.gift_del_active .gift_del_active_right .time02 span{ float:right;color:#C9CBD0; margin-top:-5px; margin-right:-45px; font-size:13px;}
+.gift_del_active .gift_del_active_right .votetwo_right{float:left;}
+.gift_del_active .gift_del_active_right .votetwo_left{ width:100px; float:left; margin-top:5px; margin-left:15px;}
+.gift_del_active .gift_del_active_right .votetwo_left a{display:block; width:100%; height:13px;-moz-border-radius:3px;-ms-border-radius:3px;-O-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; background:#D2D2D2;}
+.gift_del_active .gift_del_active_right .votetwo_left a span{display:block; width:75%; height:13px;-moz-border-radius:3px;-ms-border-radius:3px;-O-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; background:#FF5D98;}
+.gift_del_active .gift_del_active_right .active_click{ margin-top:18px; margin-left:115px;}
+.gift_del_active .gift_del_active_right .active_click a{ display:block; width:113px; height:32px; background:#FF5D98; color:#fff; line-height:32px; font-size:18px; text-align:center;}
+#focus {width:456px; height:310px; overflow:hidden; position:relative;border:1px solid #ECECEC;}
+#focus ul {height:310px; position:absolute;}
+#focus ul li {float:left; width:456px; height:280px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btnBg {position:absolute; width:456px; height:42px; left:0; bottom:0; background:#A7ADB2; filter:alpha(opacity=50); /*IE滤镜，透明度50%*/-moz-opacity:0.5; /*Firefox私有，透明度50%*/opacity:0.5;/*其他，透明度50%*/}
+#focus .btn {position:absolute; width:200px; height:10px; padding:13px 20px; right:0; bottom:0; text-align:right;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:8px; height:8px;background:#fff;border-radius:8px; _font-size:0; margin-left:15px; cursor:pointer;}
+#focus .btn span .on {border-radius:8px; background:none;}
+.share{ margin-top:15px;}
+.share ul li{ float:left; margin-right:20px;}
+.share ul li a{ display:block; color:#9CA4AE; font-size:14px;}
+.share ul li a img{ display:block; margin-right:5px; float:left; margin-top:-2px;}
+/*====================妈妈计划礼物页 礼物详情 礼物评论 样式====================*/
+.present_comment{ margin-top:37px;}
+.tab{ width:840px; height:auto; margin-top:15px;}
+.message{ width:840px; height:38px; border-bottom:1px solid #DDDDDD;}
+.message span{ display:block; width:98px; height:38px;border:none;float:left; margin-right:9px; text-align:center; line-height:38px; color:#7A8491; font-size:14px;}
+.message ul{ float:right;}
+.message ul li{ float:left; width:16px; height:20px; background:#E6EAED; margin-left:10px;}
+.message ul li a{ display:block; line-height:20px; text-align:center; font-size:14px; font-weight:bold;}
+.message .nos{display:block; width:98px; height:39px; float:left;border-bottom:1px solid #FF5D98;color:#FF5D98;}
+#JKDiv_0 dl{ width:135px; float:left; margin-top:30px;}
+#JKDiv_0 dl dt{ position:relative;}
+#JKDiv_0 dl dt .newlook{ position: absolute; width:45px; height:27px; background:#CACFD3; display:block;bottom:0px;right:0px; text-align:center; line-height:27px; filter:alpha(opacity=0.7);opacity:0.7;color:#fff;}
+#JKDiv_0 dl dt .newlook:hover{ text-decoration:underline;}
+#JKDiv_0 dl dd{ text-align:center; line-height:25px;}
+#JKDiv_0 dl .mtname01 a{ display:block;color:#FFA7C6; font-size:16px;padding-top:10px;}
+.mtcur{ margin-right:40px;}
+#JKDiv_1 dl{ width:135px; float:left; margin-top:30px;}
+#JKDiv_1 dl dt{ position:relative;}
+#JKDiv_1 dl dt .newlook{ position: absolute; width:45px; height:27px; background:#CACFD3; display:block;bottom:0px;right:0px; text-align:center; line-height:27px; filter:alpha(opacity=0.7);opacity:0.7;color:#fff;}
+#JKDiv_1 dl dt .newlook:hover{ text-decoration:underline;}
+#JKDiv_1 dl dd{ text-align:center; line-height:25px;}
+#JKDiv_1 dl .mtname01 a{ display:block;color:#FFA7C6; font-size:16px;padding-top:10px;}
+#JKDiv_0 .del_one{ font-size:14px; margin-top:42px; color:#38495C; line-height:25px;}
+#JKDiv_1 .gift_comment{border-bottom:1px solid #DDDDDD; height: auto; display:table;width:840px; padding-bottom:20px;}
+.lifes_click{ margin-top:20px;display:table; padding-bottom:20px;}
+.lifes_click .dis_tilte_left{ float:left;}
+.lifes_click .dis_tilte_left a{ display:block;}
+.lifes_click .dis_tilte_left img{ display:block; width:62px; height:62px;-moz-border-radius:62px;-ms-border-radius:62px; -O-border-radius:62px;-webkit-border-radius:62px;border-radius:62px;}
+.lifes_click .dis_tilte_right{ float:left; margin-left:15px;}
+.lifes_click .dis_tilte_right .dis_fb{padding-top:10px;}
+.lifes_click .dis_tilte_right .dis_fb a{ display:block; float:left; color:#FC518D; font-size:14px;}
+.lifes_click .dis_tilte_right .dis_fb span{ display:block; float:left; font-size:14px;}
+.lifes_click .dis_fb_time{ margin-top:10px;}
+.lifes_click .dis_fb_time a{ display:block;color:#38495C; font-size:14px; margin-top:5px;white-space:nowrap;text-overflow:ellipsis;
+-o-text-overflow:ellipsis;overflow: hidden; width:650px;}
+.attention .attention_left{ float:left;}
+.attention .attention_left a{ display:block;border:1px solid #CECECE; width:60px; height:22px; color:#A9A9A9; font-size:14px; background:#EEEEEE; text-align:center; line-height:22px;-moz-border-radius:3px;-ms-border-radius:3px;-O-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.attention .attention_right{ float:right;}
+.comment_share{ margin-top:15px;}
+.comment_share ul li{ float:left; margin-left:20px;}
+.comment_share ul .love_cur{position:relative;}
+.comment_share ul .love_cur .love_curbig{ position:absolute; width:86px; height:37px; background:url(../images/smile.png) no-repeat;left:-20px;top:30px; display:none;}
+.comment_share ul .love_cur .love_curbig a{ display:block; line-height:37px; text-align:center; font-size:12px;}
+.comment_share ul li a{ display:block; color:#9CA4AE; font-size:14px;}
+.comment_share ul li a img{ display:block; margin-right:5px; float:left; margin-top:-2px;}
+/*====================妈妈计划礼物页 礼包兑换 样式====================*/
+.gift_detail .gift_detail_right{ float:right; width:283px;}
+.gift_detail .gift_detail_right .present_exchange{ width:281px; height:47px; background: url(../images/gift_exchange.png) no-repeat;}
+.gift_detail .gift_detail_right .present_exchange a{ display:block; font-size:18px; color:#F74D86; line-height:47px;}
+.gift_detail .gift_detail_right .present_exchange a span{ display:block; float:left; margin-left:73px; margin-top:5px; margin-right:10px;}
+/*====================妈妈计划礼物  推荐礼物====================*/
+.hot_title h1{ width:283px;border-bottom:1px solid #F74D86;}
+.hot_title span{ display:block; width:88px; height:30px; background:#F74D86; color:#fff; font-size:14px; text-align:center; line-height:30px;}
+.hot_gift{ margin-top:40px;}
+.hot_gift .hot_newgift ul{ margin-top:10px;}
+.hot_gift .hot_newgift ul li{ display:inline; line-height:35px;}
+.hot_gift .hot_newgift ul li a{ display:block; color:#38495C; font-size:14px; font-weight:bold;}
+.hot_gift .hot_newgift ul li span{ display:block; float:left; margin-right:10px; margin-top:6px;}
+/*====================妈妈计划礼物  精选评论====================*/
+.comment_title{ margin-top:48px;}
+.comment_title h1{ width:283px;border-bottom:1px solid #F74D86;}
+.comment_title span{ display:block; width:88px; height:30px; background:#F74D86; color:#fff; font-size:14px; text-align:center; line-height:30px;}
+.comment_time{ margin-top:15px;}
+.comment_time a{ display:block; color:#F74D86; font-size:16px; float:left;}
+.comment_time span{ display:block; color:#6F7A88; font-size:16px;}
+.comment_win{border-bottom:1px solid #E6EAED;}
+.comment_win .demo{margin-bottom:20px;position:relative; width:283px; margin-top:15px;}
+.comment_win .triangle {position:absolute;margin-top:-8px;left:20px;display:block;width:0;height:0;overflow:hidden;
+line-height:0;font-size:0;border-bottom:8px solid #E6EAED;border-top:none;border-left:8px solid #FFF;border-right:8px solid #FFF;
+}
+.comment_win .demo .article {float:left; color:#FFF;display:inline-block;*display:inline; zoom:1;padding:5px 10px; border:1px solid #E6EAED;background:#E6EAED;background-color:#E6EAED;}
+.comment_win .demo .article p{ color:#5B6978; font-size:14px; padding:5px; line-height:18px;}
+.comment_from p{color:#5B6978; font-size:14px; margin-bottom:15px;}
+/*====================妈妈计划礼物 分页====================*/
+.page{ margin-top:50px;}
+.page ul li{ float:left;}
+.page ul{ float:right;}
+.page ul li{ margin-left:15px;}
+.page ul li a{ display:block; color:#9CA4AE; font-size:14px;}
+.page ul li a:hover{ display:block; color:#9CA4AE; font-size:14px; text-decoration:underline;}
+/*====================妈妈计划礼物页弹框====================*/
+.header_box_bg{z-index:9999;filter:alpha(opacity=50);opacity:0.5;-moz-opacity:0.5;left:0px;top:-85px;background:#000;height: auto;width:100%; display:block;position: fixed;left: 0px;top: 0px;z-index: 6000;width: 100%;height:1000px; display:none;}
+.gift_experience_main{ width:740px; height:496px; background:#fff;left:50%;top:50%;z-index:9999; margin-left:-370px; margin-top:-248px; position:absolute; display:none;}
+.gift_experience_main .header_close img{ display:block; float:right; margin-right:-20px; margin-top:-5px; cursor:pointer;}
+.gift_experience_main .gift_add{ margin-top:70px; margin-left:124px;}
+.gift_experience_main .gift_add .gift_add_left{ float:left;}
+.gift_experience_main .gift_add .gift_add_left span{ display:block; font-size:18px; color:#7A8491; font-weight:bold;}
+.gift_experience_main .gift_add .gift_add_right{ float:left;}
+.gift_experience_main .gift_add .gift_add_right a{ display:block;color:#7A8491; font-size:14px;font-weight:bold; margin-left:126px;}
+.gift_experience_main .gift_address{ width:650px; height:auto; display: table;border:1px solid #E1E1E1; margin-top:65px; margin-left:45px;}
+.gift_experience_main .gift_address .gift_address_one{ width:650px; height:40px;border-bottom:1px solid #E1E1E1;}
+.gift_experience_main .gift_address .gift_address_one ul li{ float:left; color:#38495C; font-size:14px; line-height:40px;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_first{ width:56px; text-align:center;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_second{ width:374px; text-align:center;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_third{ width:105px; text-align: center;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_fourth{ text-align:center;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_fourth input{ margin-left:10px;}
+.gift_experience_main .gift_address .gift_address_one ul .gift_address_fivth{ width:75px; text-align:center;}
+.gift_experience_main .gift_refer{ margin-top:53px;}
+.gift_experience_main .gift_refer a{ display:table;-moz-border-radius:3px;-ms-border-radius:3px; -O-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; background:#959DA8; width:110px; height:34px; text-align:center; line-height:34px; color:#fff; margin-left:315px; font-size:20px; font-weight:bold;}
+.gift_experience_main .gift_agree{ margin-left:305px; margin-top:15px;}
+.gift_experience_main .gift_agree input{ float:left;}
+.gift_experience_main .gift_agree span{ display:block; float:left; color:#6F7A88; font-size:14px; margin-left:5px;}
+
+/*====================10.31新样式改====================*/
+.new_replay a{ display:block; float:left;}
+.new_replay span{ display:block; float:left; margin-right:10px;}

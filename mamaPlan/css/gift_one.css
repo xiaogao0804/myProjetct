@@ -1,0 +1,57 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+.present{ margin-top:50px;}
+.present .present_left{ float:left; width:755px;}
+/*====================妈妈计划礼物页 主体样式====================*/
+.newgift_cur{ margin-top:80px;}
+.main_gift_right{ float:left;width:755px;}
+.main_gift_right .present_title{ width:755px;height:40px;}
+.main_gift_right .present_curs{ width:755px; height:1px; background:#DCDCDC;}
+.main_gift_right .present_title span{ display:block; font-size:18px; font-weight:bold; float:left; color:#747F8D;}
+.main_gift_right .present_title a{ display:block; font-size:16px; font-weight:bold; float:left; color:#747F8D; float:right;}
+.main_gift_right .present_pic{ width:755px;}
+.main_gift_right .present_pic .brand{ width:755px; height: auto; display:table; position:relative;}
+.present_cur{ margin-right:55px;}
+.main_gift_right .present_pic .brand a{display:block;width:215px;height:215px;-moz-border-radius:215px;-ms-border-radius:215px; -O-border-radius:215px;-webkit-border-radius:215px;border-radius:215px;position:relative; text-align:center; float:left; margin-top:25px;}
+.main_gift_right .present_pic .brand img{width:215px;height:215px;-moz-border-radius:215px;-ms-border-radius:215px; -O-border-radius:215px;-webkit-border-radius:215px;border-radius:215px;}
+.main_gift_right .present_pic .brand .info{display:none;width:215px;height:215px;background:url(../images/gift_num_cur.png) no-repeat;}
+
+.main_gift_right .present_pic .brand .info ul{padding-top:35px;}
+.main_gift_right .present_pic .brand .info ul li{ color:#fff; font-size:14px; line-height:30px;}
+.main_gift_right .present_pic .brand .info img{ display:none;}
+.main_gift_right .present_pic .vertical .info{width:0;height:215px;margin:0 auto;}
+.main_gift_right .present_pic a .gift_my{ margin-top:20px;}
+.main_gift_right .present_pic a .gift_my span{ display:block; font-size:14px; color:#38495C;}
+/*====================妈妈计划礼物  热门点击====================*/
+.present .present_right{ float:right;}
+.hot_click .hot_title{margin-top:10px;}
+.hot_title h1{ width:346px;border-bottom:1px solid #F74D86;}
+.hot_title span{ display:block; width:88px; height:30px; background:#F74D86; color:#fff; font-size:14px; text-align:center; line-height:30px;}
+.hot_today ul{ width:135px; float:left; display:inline;}
+.hot_today ul li a{ display:block; color:#FF5D98; font-size:18px; float:left;}
+.hot_today ul li a span{ display:block; float:left; margin-right:10px; margin-top:15px; margin-left:10px;}
+.hot_today ul li a img{ display:block; float:left;}
+/*====================妈妈计划礼物  热门礼物====================*/
+.hot_gift{ margin-top:40px;}
+.hot_gift .hot_newgift ul{ margin-top:10px;}
+.hot_gift .hot_newgift ul li{ display:inline; line-height:35px;}
+.hot_gift .hot_newgift ul li a{ display:block; color:#38495C; font-size:14px; font-weight:bold;}
+.hot_gift .hot_newgift ul li span{ display:block; float:left; margin-right:10px; margin-top:6px;}
+/*====================妈妈计划礼物  热门评论====================*/
+.comment_title{ margin-top:48px;}
+.comment_title h1{ width:346px;border-bottom:1px solid #F74D86;}
+.comment_title span{ display:block; width:88px; height:30px; background:#F74D86; color:#fff; font-size:14px; text-align:center; line-height:30px;}
+.comment_time{ margin-top:15px;}
+.comment_time a{ display:block; color:#F74D86; font-size:16px; float:left;}
+.comment_time span{ display:block; color:#6F7A88; font-size:16px;}
+.comment_win{border-bottom:1px solid #E6EAED;}
+.comment_win .demo {margin-bottom:20px;position:relative; width:346px; margin-top:15px;}
+.comment_win .triangle {position:absolute;margin-top:-8px;left:20px;display:block;width:0;height:0;overflow:hidden;
+line-height:0;font-size:0;border-bottom:8px solid #E6EAED;border-top:none;border-left:8px solid #FFF;border-right:8px solid #FFF;
+}
+.comment_win .demo .article {float:left; color:#FFF;display:inline-block;*display:inline; zoom:1;padding:5px 10px; border:1px solid #E6EAED;background:#E6EAED;background-color:#E6EAED;}
+.comment_win .demo .article p{ color:#5B6978; font-size:14px; padding:5px; line-height:18px;}
+.comment_from p{color:#5B6978; font-size:14px; margin-bottom:15px;}

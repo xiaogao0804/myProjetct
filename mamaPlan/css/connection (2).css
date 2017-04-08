@@ -1,0 +1,11 @@
+/*====================妈妈计划首页样式====================*/
+
+/*====================妈妈计划首页 主体样式====================*/
+.big_gift{ width:100%; height:auto; display:table;}
+.wrapper{ width:1182px; margin:0 auto; height:auto; position:relative; z-index:99;top:80px;}
+/*====================妈妈计划联系我们主体样式====================*/
+.connection{width:1182px; margin:0 auto; height:auto;border:1px solid #BFC3C9; margin-top:60px; padding-bottom:60px;}
+.connection .connection_one{ margin-top:40px; margin-left:128px;}
+.connection .connection_one h2{ font-size:24px; color:#37485B;}
+.connection .connection_two{margin-top:10px; margin-left:128px;}
+.connection .connection_two p{ color:#6F7A88; font-size:16px; line-height:35px;}

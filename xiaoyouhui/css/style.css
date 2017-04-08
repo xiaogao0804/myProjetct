@@ -1,0 +1,465 @@
+/*..........first...............*/
+html,body{
+    font-size: 100px;
+    height: 100%;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    height: 100%;
+}
+#wrap1{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/1-bj.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.main1{
+    width: 100%;
+    height: 5rem;
+    float: left;
+    margin-top: 2.8rem;
+}
+.circular{
+    width: 2.8rem;
+    height: 2.8rem;
+    background:url("../img/yuan%2011.png") 0 0 no-repeat;
+    background-size: 2.8rem 2.8rem;
+    margin: 0.8rem 1.7rem;
+    position: relative;
+}
+.gongxiang{
+    width: 3.5rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 0.2rem;
+    left: -0.29rem;
+}
+.year{
+    width: 1.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 1.1rem;
+    left:0.65rem
+}
+.circular2{
+    width: 1rem;
+    height:1rem;
+    position: absolute;
+    top: 2.1rem;
+    left:1.6rem;
+}
+.font{
+    font-size: 0.4rem;
+    font-weight: bolder;
+    color: #fff;
+    position: absolute;
+    top: 1.8rem;
+    left: 0.78rem;
+}
+.time{
+    color: #fff;
+    font-size: 0.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1.7rem;
+    left: 1.48rem;
+}
+.place{
+    color: #fff;
+    font-size: 0.35rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1.1rem;
+   left: 2.2rem;
+}
+.name{
+    color: #fff;
+    font-size: 0.45rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0.6rem;
+    left: 0.4rem;
+}
+
+/*............second.................*/
+
+#wrap2{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-2.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.main2{
+    width: 100%;
+    height: 100%;
+    background:url('../img/2-bj-kuai.png') 0.32rem 0.6rem no-repeat;
+    background-size: 90% 90%;
+    overflow: hidden;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    /*-webkit-animation: auto 1s linear;*/
+    /*-o-animation: auto 1s linear;*/
+    /*animation: auto 1s linear 1;*/
+}
+.year2{
+     width: 1.5rem;
+     height: 0.5rem;
+     display: block;
+     margin: 3.3rem 0 0 2.5rem;
+}
+/*@keyframes auto{*/
+   /*0%{transform: rotate(0deg)}*/
+    /*50%{transform: rotate(360deg)}*/
+    /*100%{transform: rotate(0deg)}*/
+/*}*/
+.font2{
+    width: 4rem;
+    height: 3.2rem;
+  font-size: 0.32rem;
+   color: #fff;
+   line-height: 0.6rem;
+    margin: 0.3rem 0 0 1.23rem;
+}
+/*...........third.......................*/
+#wrap3{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-3.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.main3{
+   width: 128%;
+   height: 60%;
+   background: url('../img/wujiaox.png') -1rem -0.3rem no-repeat;
+   background-size:100% 100%;
+   overflow: hidden;
+}
+.font3{
+    width: 4rem;
+    height: 3rem;
+    margin: 1.5rem 0 0 1rem;
+    float: left;
+    overflow: hidden;
+}
+.name3{
+    color: #fff;
+    font-size: 0.45rem;
+    float: left;
+    margin: 1.6rem 0 0 -3.8rem;
+}
+.con{
+    font-size: 0.3rem;
+    color:#fff;
+    float: left;
+    margin: -2.3rem 0 0 1.2rem;
+}
+/*/*................four..................*/
+#wrap4{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-4.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.name4{
+    color: #fff;
+    font-size: 0.42rem;
+    font-weight: bold;
+    float: left;
+    margin:1.4rem 0 0 1rem;
+}
+ .boy{
+    width: 4rem;
+    height: 3rem;
+    margin:0 0 0 1.2rem;
+    display: block;
+}
+.sex{
+    color: #932c97;
+    font-size: 0.4rem;
+    margin: -0.6rem 0 0 2.65rem;
+}
+.introduce{
+    color: #fff;
+    font-size: 0.3rem;
+    margin: 0.1rem 0 0 2rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80)
+}
+.introduce2{
+    color: #fff;
+    font-size: 0.3rem;
+    margin: 0.1rem 0 0 1.4rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80)
+}
+.introduce3{
+    width: 5rem;
+    color: #fff;
+    font-size: 0.25rem;
+    margin: 0.55rem 0 0 0.8rem;
+    line-height: 0.35rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+/*...............five...................*/
+#wrap5{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-4.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.boy2{
+    width: 1.8rem;
+    height: 2.1rem;
+    margin:2.3rem 0 0 2.2rem;
+    display: block;
+}
+.sex2{
+    color: #932c97;
+    font-size: 0.4rem;
+    margin: -0.3rem 0 0 2.5rem;
+}
+.introduce2-1{
+    color: #fff;
+    font-size: 0.3rem;
+    margin: 0.1rem 0 0 1.55rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80)
+}
+/*.............six......................*/
+#wrap6{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-4.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.woman{
+    width: 1.8rem;
+    height: 1.8rem;
+    display: inline-block;
+    margin:0.4rem 0 0 2.2rem;
+}
+.sex3{
+    color: #932c97;
+    font-size: 0.4rem;
+    margin: -0.3rem 0 0 2.7rem;
+}
+.introduce3-2{
+    color: #fff;
+    font-size: 0.3rem;
+    margin: 0.1rem 0 0 1.8rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80)
+}
+/*................seven..................*/
+#wrap7{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-5.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.name7{
+    color: #fff;
+    font-size: 0.42rem;
+    font-weight: bold;
+    margin: 0.5rem 0 0 1.5rem;
+}
+.introduce7{
+    width: 6rem;
+    color: #fff;
+    font-size: 0.2rem;
+    margin: 0.2rem 0 0 0.45rem;
+    line-height: 0.35rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.person{
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.person li{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: -0.19rem;
+}
+.person img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+/*................eight.......................*/
+#wrap8{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-6.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.name8{
+    color: #fff;
+    font-size: 0.42rem;
+    font-weight: bold;
+    margin: 0.8rem 0 0 2.3rem;
+}
+.list{
+    width: 5.8rem;
+    height: 70%;
+    margin: 0.4rem auto;
+    position: relative;
+}
+.list li{
+    width: 100%;
+    height: 1.65rem;
+    background: #fff;
+    opacity: 0.1;
+    filter:alpha(opacity=10);
+    margin-top: 0.13rem;
+    position: relative;
+}
+.list img{
+    width: 0.28rem;
+    height: 0.28rem;
+    float: left;
+}
+.li1{
+    position: absolute;
+    top: 0.3rem;
+    left:0.2rem;
+    overflow: hidden;
+}
+.time8{
+    font-size: 0.25rem;
+    color: #f51587;
+    float: left;
+    margin-left: 0.1rem;
+}
+.clear{
+    clear: both;
+}
+.lang{
+    color: #fff;
+    font-size: 0.2rem;
+    margin: 0.1rem 0 0 0.35rem;
+    line-height: 0.35rem;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.li2{
+    position: absolute;
+    top: 2.05rem;
+    left:0.2rem;
+    overflow: hidden;
+}
+.li3{
+    position: absolute;
+    top: 3.8rem;
+    left:0.2rem;
+    overflow: hidden;
+}
+.li4{
+    position: absolute;
+    top: 5.6rem;
+    left:0.2rem;
+    overflow: hidden;
+}
+/*..................nine.......................*/
+#wrap9{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-7.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.xing{
+    width: 100%;
+    height:60%;
+    background: url("../img/7y-wjiaox.png") -0.2rem 0 no-repeat;
+    background-size: 110% 110%;
+    margin-top: 1.9rem;
+    position: relative;
+}
+.y7-ren{
+    width: 2.5rem;
+    height: 4.3rem;
+    position: absolute;
+    top: -2rem;
+    left:0.4rem;
+  }
+.xing_p1{
+    color: #fff;
+    font-size: 0.45rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2.3rem;
+    left: 1.5rem;
+}
+.xing_p2{
+    color: #fff;
+    font-size: 0.35rem;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+.xing_p3{
+    color: #fff;
+    font-size: 0.35rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 2rem;
+}
+.xing_p3 span{
+    font-size: 0.4rem;
+}
+/*....................ten..............................*/
+#wrap10{
+    width: 6.4rem;
+    height:100%;
+    background: url("../img/bj-8.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#wrap10 form{
+    width: 86%;
+    height: 60%;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+#wrap10 form input{
+    width: 4.5rem;
+    height:0.6rem;
+    background-color: #fff;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    border-radius: 0.1rem;
+    float: left;
+}
+#wrap10 form span{
+    color: #fff;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    font-size: 0.3rem;
+    padding-right: 0.3rem;
+    float: left;
+    margin-top: 0.14rem;
+}
+#wrap10 form .ipt1{
+    height: 0.7rem;
+    overflow: hidden;
+    float: left;
+    margin-top: 0.1rem;
+}
+.login{
+    width: 5.5rem;
+    height: 1rem;
+    background-color: #67216b;
+    margin: -4.2rem auto;
+    color: #fff;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 1rem;
+}
